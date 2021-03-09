@@ -8,7 +8,7 @@ sort: 7
 {% raw %}{% avatar saowang %}{% endraw %}
 ```
 
-{% avatar saowang %}
+{% avatar sudomagiccode %}
 
 ```tip
 Set config `plugins: [jekyll-avatar]`
