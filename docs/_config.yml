@@ -1,7 +1,6 @@
-title: jekyll-rtd-theme
-description: Just another documentation theme compatible with GitHub Pages
-
-theme: null
+title: SudoSignals
+description: SudoSignals Read the Docs
+remote_theme: carlosperate/jekyll-theme-rtd
 
 # debug:
 #   compress: true
@@ -15,6 +14,7 @@ plugins:
   - jemoji
   - jekyll-avatar
   - jekyll-mentions
+  - jekyll-remote-theme
 
 exclude:
   - Makefile
