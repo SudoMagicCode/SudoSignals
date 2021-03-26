@@ -1,3 +1,7 @@
-# I'm folder1
+---
+sort: 1
+---
 
-source: `{{ page.path }}`
+# Getting Started
+
+Getting Started with Signals is easy.
