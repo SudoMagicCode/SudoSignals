@@ -1,3 +1,7 @@
-# I'm folder1
+---
+sort: 2
+---
+
+# Reports
 
 source: `{{ page.path }}`
