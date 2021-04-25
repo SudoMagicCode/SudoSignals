@@ -11,6 +11,7 @@ Term | Definition
 `card` |
 `graph` |
 `process` |
+`controlled process` | 
 `product-id` |
 `signals-id` |
 `installation` |
