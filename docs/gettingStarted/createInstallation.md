@@ -16,18 +16,18 @@ We can start by heading to the sudoSignals dashboard at [dashboard.sudosignals.c
 
 If you're creating your first installation you can click **Get Started**. 
 
-![Install Signals 001](../assets/images/create-installation/create-installation-001.png)
+![Create Installation 001](../assets/images/create-installation/create-installation-001.png)
 
 If you already have an installation, and want to add another click the plus icon in the upper right to create a new installation.
 
-![Install Signals 001](../assets/images/create-installation/create-installation-002.png)
+![Create Installation 002](../assets/images/create-installation/create-installation-002.png)
 
 ## 3 Name Your Installation
 
 When the Create New Installation dialogue opens you can enter a descriptive name for your installation and the click **Create It**.
 
-![Install Signals 001](../assets/images/windows-installer/install-signals-001.jpg)
+![Create Installation 003](../assets/images/create-installation/create-installation-003.png)
 
 After creating your installation you'll be directed back to your dashboard where you can see the a card with all of the at-a-glance details for your installation.
 
-![Install Signals 001](../assets/images/windows-installer/install-signals-001.jpg)
+![Create Installation 004](../assets/images/create-installation/create-installation-004.png)
