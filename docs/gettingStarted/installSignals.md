@@ -8,7 +8,7 @@ sudoSignals runs as a local process on your Windows computer. In order for signa
 
 ## 1 Download sudoSignals
 
-In your download the [latest sudoSignals installer](https://github.com/SudoMagicCode/sudoSignals_releases/releases/latest/download/SudoSignals_Installer.msi).
+In download the [latest sudoSignals installer](https://github.com/SudoMagicCode/sudoSignals_releases/releases/latest/download/SudoSignals_Installer.msi).
 
 
 If you need an older version of signals, you can see all of the [sudoSignals releases here](https://github.com/SudoMagicCode/sudoSignals_releases/releases).
