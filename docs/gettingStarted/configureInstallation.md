@@ -26,7 +26,7 @@ Right click on the system tray icon and select **Configuration**.
 
 ![Configure 003](../assets/images/configure-installation/configure-003.jpg)
 
-Alternatively, you can just got to this page in your browser: 
+Alternatively, you can just got to this page in your browser:  
 `https://dashboard.sudosignals.com/configuration?p=10000`
 
 ```tip
