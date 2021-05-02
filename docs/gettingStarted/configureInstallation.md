@@ -4,60 +4,58 @@ sort: 4
 
 # Configure an Installation
 
-sudoSignals runs as a local process on your Windows computer. In order for signals monitor applications and keep them alive, we need to install the local service to keep your installation looking its best.
+sudoSignals runs as a local process on your Windows computer, and is controlled via an online web Dashboard.
 
-## 1 Open the Dashboard
+## 1. Open the Dashboard
 
-With an installation created, we can now set configure how we'd like signals to manage this machine. To get started, let's make sure that you have the dashboard open in your browser - [dashboard.sudosignals.com](https://dashboard.sudosignals.com/)
+With an installation created, we can now configure how we'd like Signals to manage this machine. To get started, let's make sure that you have the Dashboard open in your browser — [dashboard.sudosignals.com](https://dashboard.sudosignals.com/)
 
 ![Configure 001](../assets/images/configure-installation/configure-001.png)
 
-## 2 Start sudoSignals
+## 2. Start sudoSignals
 
-To configure an installation we'll also need sudoSignals to be running. From the shortcut on the desktop, or from the start menu start sudoSignals.
+To configure the installation we'll also need sudoSignals running. From the shortcut on your desktop or from the start menu, start sudoSignals.
 
-## 3 Configure from System Tray
+## 3. Configure from System Tray
 
 Locate the sudoSignals icon in the system tray.
 
 ![Configure 002](../assets/images/configure-installation/configure-002.jpg)
 
-Right click on the system tray icon and select **Configuration**.
+Right click on the system tray icon and select `Configuration`.
 
 ![Configure 003](../assets/images/configure-installation/configure-003.jpg)
 
-Alternatively, you can just got to this page in your browser:  
+Alternatively, you can go to this page on your browser:  
 `https://dashboard.sudosignals.com/configuration?p=10000`
 
 ```tip
 While we use a webform to capture the configuration data, this page communicates directly with sudoSignals on port `10000` to create a configuration YAML file. 
 ```
 
-## 4 Select Installation to Configure
+## 4. Select Installation to Configure
 
-On the installation page select which installation you would like to configure from the installation drop down menu. This process associates a signals installation with a your server.
+On the Installation tab select which installation you would like to configure from the drop down menu. This process associates a Signals installation with your server.
 
 ![Configure 004](../assets/images/configure-installation/configure-004.png)
 
-Click **Update** on the bottom of the page - this will update the configuration YAML file and restart signals on your computer. 
+Click `Update` and this will update the configuration YAML file and restart Signals on your computer. 
 
 ![Configure 005](../assets/images/configure-installation/configure-005.png)
 
-## 5 Goto the Startup Page
+## 5. Go to the Startup Page
 
-Navigate to the Start up tab on the Configuration page. On this page we'll configure signals to start a application. 
-
-In some cases you may want windows to run a batch file before or after your application starts up. Signals provides the option to run a batch file for either or both of thesze cases. 
+Navigate to the Startup tab on the Configuration page. Here we will configure Signals to start a application. 
 
 ![Configure 006](../assets/images/configure-installation/configure-006.png)
 
-## 6 Create a New Process
+## 6. Create a New Process
 
 ```tip
-Applications that we control and monitor through sudoSignals are refereed to as a `process`. 
+Applications that are controlled and monitored through sudoSignals are refereed to as `processes`. 
 ```
 
-In most cases we want to create a new process that Signals will monitor. To do this, let's start by clicking `Create New Process`. 
+In order to add a new process to be monitored, click `Create New Process`. 
 
 ![Configure 007](../assets/images/configure-installation/configure-007.png)
 
@@ -65,7 +63,9 @@ This creates a new process entry below:
 
 ![Configure 008](../assets/images/configure-installation/configure-008.png)
 
-You can open all of the parameters for our process by using the small carrot to the left of the process name.
+```tip
+You can open and close all of the parameters for a process by using the small carrot to the left of the process name.
+```
 
 ![Configure 009](../assets/images/configure-installation/configure-009.png)
 
@@ -81,18 +81,18 @@ It is important, however, that this name is unique. Each process managed by Sign
 
 ### Select a Program to Start
 
-Next we'll select the application that Signals is going to start. Click the **Browse** button to select an application that Signals will start and stop. 
+Next we'll select the application that Signals is going to start. Click the `Browse` button to select an application that Signals will start and stop. 
 
 ![Configure 011](../assets/images/configure-installation/configure-011.png)
 
-For example, if you are going to use sudoSignals to run TouchDesigner, you'll want to select **Browse** and navigate to the `TouchDesigner.exe` application.
+For example, if you are going to use sudoSignals to run TouchDesigner, you'll want to select `Browse` and navigate to the `TouchDesigner.exe` application.
 
 ![Configure 012](../assets/images/configure-installation/configure-012.png)
 
 ### Set Command Arguments
 
 ```tip
-Setting arguments is an optional field. Applications often accept command line arguments for operations ranging from opening files, to opening with specific settings. Signals allows command line arguments to be passed through to the application. In most cases you'll likely use this feature to specify which file you'd like  your application to run.
+Setting arguments is an optional field. Applications often accept command line arguments for operations ranging from opening files, to opening with specific settings. Signals allows command line arguments to be passed through to the application.
 ```
 
 If you have a specific file you'd like to run with your selected program, in the Arguments field paste the path to your target file. 
@@ -106,14 +106,14 @@ For example, if I wanted to run a specific project file with TouchDesigner I wou
 ### Set Auto Restart Count
 
 ```tip
-Signals can be configured to attempt to restart an application a fixed number of times, or to always attempt to keep an application running. 
+Signals can be configured to restart an application a fixed number of times, or to always attempt to keep an application running. 
 ```
 
-If you'd like sudoSignals to keep your application running, first toggle the **Auto Restart** parameter to the on position. 
+If you'd like sudoSignals to keep your application running, first toggle the `Auto Restart` parameter to the ON position. 
 
 ![Configure 015](../assets/images/configure-installation/configure-015.png)
 
-To have Signals keep the application always running, leave the Restart Limit at 0. If you would only like Signals to restart an application a specific number of times, enter that number in the Restart Limit field. 
+To have Signals keep the application always running, leave the Restart Limit to 0. If you would only like Signals to restart an application a specific number of times, enter that number in the Restart Limit field. 
 
 ### Set Controlled Status
 
@@ -121,13 +121,13 @@ To have Signals keep the application always running, leave the Restart Limit at 
 Controlled processes communicate through sudoSignals to the web. 
 ```
 
-If you know that your application is going to have an exposed parameter set that will need to talk to the web dashboard, set the toggle for **Controlled** to the on position. If you only need signals to start your application, and it doesn't need to talk with the dashboard directly, you can leave this toggle in the off position.
+If you know that your application is going to have an exposed parameter that will need to talk to the web Dashboard, set the toggle for `Controlled` to the on position. If you only need Signals to start your application, and it doesn't need to talk with the Dashboard directly, you can leave this toggle in the OFF position.
 
 ![Configure 016](../assets/images/configure-installation/configure-016.png)
 
-## 7 Update
+## 7. Update
 
-Now that we've gotten our installation configured, we can click **Update**. This will restart Signals, and in turn start any applications you've specified in your installation's configuration. 
+Now that we've gotten our installation configured, we can click `Update`. This will restart Signals, and in turn start any applications you've specified in your installation's configuration. 
 
 ![Configure 017](../assets/images/configure-installation/configure-017.png)
 
