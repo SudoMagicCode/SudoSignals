@@ -2,6 +2,6 @@
 sort: 3
 ---
 
-# Trouble Shooting
+# Troubleshooting
 
 {% include list.liquid all=true %}
