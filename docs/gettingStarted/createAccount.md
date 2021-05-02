@@ -4,7 +4,7 @@ sort: 1
 
 # Create Your sudoSignals Account
 
-To control your installations remotely you'll need to have a sudoSignals account. The steps below will walk us through creating your sudoSignals account.
+To control your installations remotely you'll need to have a sudoSignals account. The steps below will walk you through creating a Signals account.
 
 ## 1 Open your Browser
 In your browser head to [dashboard.sudosignals.com](https://dashboard.sudosignals.com/)
