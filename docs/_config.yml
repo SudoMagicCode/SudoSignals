@@ -2,6 +2,9 @@ title: SudoSignals
 description: SudoSignals Read the Docs
 remote_theme: carlosperate/jekyll-theme-rtd
 
+# Google Analytics
+google_analytics: G-RKHFRWFW6W
+
 # debug:
 #   compress: true
 #   dist: false
