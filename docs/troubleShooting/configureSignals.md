@@ -4,7 +4,7 @@ sort: 2
 
 # Signals Config File
 
-Signals operation is described by a YAML file.
+Signals' operation is described by a YAML file.
 
 For a typical installation type, you can locate your config file in:  
 `C:\ProgramData\SudoMagic\SudoSignals\config`
@@ -37,5 +37,5 @@ services: []
 ```
 
 ```tip
-Advanced users can choose to edit their YAML manually. Additionally, if you're configuring a large number of servers you may consider using a scripting language to create your configuration files.
+Advanced users can choose to edit their YAML manually. Additionally, if you're configuring a large number of servers you may consider using a script to create your configuration files.
 ```
