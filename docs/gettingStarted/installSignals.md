@@ -44,7 +44,7 @@ Signals has an end user licensing agreement, mark that you agree to the agreemen
 
 ### Select Installation Type
 
-There are three different Setup Types for Signals. If you'd like to use our recommend settings, select **Typical** — this will install Signals for you automatically. If you'd like to designate where Signals is installed select **Custom**. Right now **Complete** has all of the same installation elements as **Typical**, in future releases we're planning on having some more advanced features for users to select.
+There are three different Setup Types for Signals. If you'd like to use our recommend settings, select `**Typical**` — this will install Signals for you automatically. If you'd like to designate where Signals is installed select `**Custom**`. Right now `**Complete**` has all of the same installation elements as `**Typical**`, in future releases we're planning on having some more advanced features for users to select.
 
 ![Install Signals 005](../assets/images/windows-installer/install-signals-005.jpg)
 
