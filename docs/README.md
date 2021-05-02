@@ -1,5 +1,7 @@
 # SudoSignals
 
+“Is my installation working?”
+
 Interactive artists and creative engineers who have worked on installations and events have asked themselves the same question. If this is you, you’ve probably solved this problem a handful of times in a handful of ways — by using remote desktop tools, by building a custom remote tool, or by coordinating with a contractor that’s close to the physical installation.
 
 We’ve done all of those same things too — and that got us thinking about building a single dashboard where we could see all of our installations, if they were online, and opening up a world of controlling them remotely from a single webpage.
