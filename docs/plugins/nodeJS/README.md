@@ -4,6 +4,6 @@ sort: 2
 
 # NodeJS
 
-More information coming soon!
+_More information coming soon!_
 
 {% include list.liquid all=true %}
