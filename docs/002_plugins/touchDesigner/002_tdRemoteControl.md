@@ -53,14 +53,18 @@ The TouchDesigner Plugin supports controlling parameters in TouchDesigner remote
 
 A default operator with custom parameters is provided to help you get started.
 
+```tip
+To set your own controls, simply drag and drop an operator with custom parameters onto the `sudoSignals` TOX's parameter for `Control Comp`. Adding additional control handles is as easy to customizing the comp and adding more controls.
+```
+
 ![Create Account 006](../../assets/images/td-remote-setup/remote-setup-006.png)
 
 You should see that these same parameters and page names are reflected on the dashboard:
 
 ![Create Account 007](../../assets/images/td-remote-setup/remote-setup-007.png)
 
-```tip
-To set your own controls, simply drag and drop an operator with custom parameters onto the `sudoSignals` TOX's parameter for `Control Comp`. Adding additional control handles is as easy to customizing the comp and adding more controls.
+```note
+Controls for the `sudoSignals` plugin work both directions. Updating a custom parameter in TouchDesigner will be reflected on the cloud dashboard, and changes on the cloud dashboard will push to the controlled TouchDesigner process. 
 ```
 
 ## Custom Reports and KPIs
