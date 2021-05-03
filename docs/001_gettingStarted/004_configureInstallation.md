@@ -88,7 +88,7 @@ For example, if I wanted to run a specific project file with TouchDesigner I wou
 
 ![Configure 014](../assets/images/configure-installation/configure-014.png)
 
-```tip
+```warning
 Signals will attempt to find the right application to use to run your file - if you have multiple versions of this application installed, make sure that the correct version has been selected.
 ```
 
