@@ -37,11 +37,10 @@ While we use a webform to capture the configuration data, this page communicates
 
 On the Installation tab select which installation you would like to configure from the drop down menu. This process associates a Signals installation with your server.
 
-![Configure 004](../assets/images/configure-installation/configure-004.png)
-
 Click `Update` and this will update the configuration YAML file and restart Signals on your computer. 
 
-![Configure 005](../assets/images/configure-installation/configure-005.png)
+![Configure 004](../assets/images/configure-installation/configure-004.png)
+
 
 ## 5. Go to the Startup Page
 
@@ -55,23 +54,19 @@ Navigate to the Startup tab on the Configuration page. Here we will configure Si
 Applications that are controlled and monitored through sudoSignals are refereed to as `processes`. 
 ```
 
-In order to add a new process to be monitored, click `Create New Process`. 
-
-![Configure 007](../assets/images/configure-installation/configure-007.png)
+In order to add a new process to be monitored, click `Create New Process`.  
 
 This creates a new process entry below:
 
-![Configure 008](../assets/images/configure-installation/configure-008.png)
+![Configure 007](../assets/images/configure-installation/configure-007.png)
 
 ```tip
 You can open and close all of the parameters for a process by using the small carrot to the left of the process name.
 ```
 
-![Configure 009](../assets/images/configure-installation/configure-009.png)
+### Assign a Signals Name
 
-### Assign a Process ID
-
-The `process-id` is the unique name you'd like to associate with your process. You might choose to name this after the tookit you're using, or based on the work a given application is responsible for doing. 
+The `SIGNALS_NAME` is the unique name you'd like to associate with your process. You might choose to name this after the tookit you're using, or based on the work a given application is responsible for doing. 
 
 ```warning
 It is important, however, that this name is unique. Each process managed by Signals should have a unique name. 
@@ -79,29 +74,35 @@ It is important, however, that this name is unique. Each process managed by Sign
 
 ![Configure 010](../assets/images/configure-installation/configure-010.png)
 
+### Specify a file to open | **optional**
+
+```tip
+Setting a file is an optional field. If you have a built executable you'd like to open, Signals will just open that `.exe`. However, you can also specify a file you'd like that application to open. When using something like TouchDesigner this can be helpful.
+```
+
+If you have a specific file you'd like to run you can select that file first.  
+
+![Configure 013](../assets/images/configure-installation/configure-013.png)
+
+For example, if I wanted to run a specific project file with TouchDesigner I would browse to the `TOE` file here..
+
+![Configure 014](../assets/images/configure-installation/configure-014.png)
+
+```tip
+Signals will attempt to find the right application to use to run your file - if you have multiple versions of this application installed, make sure that the correct version has been selected.
+```
+
 ### Select a Program to Start
 
 Next we'll select the application that Signals is going to start. Click the `Browse` button to select an application that Signals will start and stop. 
-
-![Configure 011](../assets/images/configure-installation/configure-011.png)
 
 For example, if you are going to use sudoSignals to run TouchDesigner, you'll want to select `Browse` and navigate to the `TouchDesigner.exe` application.
 
 ![Configure 012](../assets/images/configure-installation/configure-012.png)
 
-### Set Command Arguments
-
-```tip
-Setting arguments is an optional field. Applications often accept command line arguments for operations ranging from opening files, to opening with specific settings. Signals allows command line arguments to be passed through to the application.
+```danger
+If you're working with an executable built by Unreal Engine, you may need to take a few extra steps in your configuration. The `.exe` built by Unreal sometimes acts as a process starter that starts another executable. Be sure that you're targeting the correct `.exe` when using signals to be able to faithfully stop and start your process.
 ```
-
-If you have a specific file you'd like to run with your selected program, in the Arguments field paste the path to your target file. 
-
-![Configure 013](../assets/images/configure-installation/configure-013.png)
-
-For example, if I wanted to run a specific project file with TouchDesigner I would enter the path to that file here.
-
-![Configure 014](../assets/images/configure-installation/configure-014.png)
 
 ### Set Auto Restart Count
 
@@ -129,5 +130,8 @@ If you know that your application is going to have an exposed parameter that wil
 
 Now that we've gotten our installation configured, we can click `Update`. This will restart Signals, and in turn start any applications you've specified in your installation's configuration. 
 
-![Configure 017](../assets/images/configure-installation/configure-017.png)
+## 8. Head to the dashboard
 
+Back on the dashboard you should now see that signals is online
+
+![Configure 018](../assets/images/configure-installation/configure-018.png)
