@@ -13,7 +13,7 @@ Clicking on your installation card will take you to the stats and control page f
 ![View 00](../assets/images/configure-installation/configure-018.png)
 
 
-## 2. See your machine stats
+## 2. See your Machine Stats
 
 On the iIstallation View page you'll see all of the reported information from your installation. On the left hand side of your screen you'll see critical information about the hardware and operating system for your installation.
 
