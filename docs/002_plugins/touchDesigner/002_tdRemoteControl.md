@@ -4,49 +4,49 @@ sort: 2
 
 # Remote Control | SudoMagic Plugin
 
-Remotely controlling your TouchDesigner installation with the SudoMagic plugin is easy. We'll first need to download the Signals plugin, add it to our project file, and then launch our project with signals.
+Remotely controlling your TouchDesigner installation with the SudoMagic plugin is easy. We'll just need to download the Signals plugin, add it to our project file, and then launch our project with Signals.
 
-## Download the Plugin
+## 1. Download the Plugin
 
 The Signals plugin can be downloaded from the [github page](https://github.com/SudoMagicCode/sudoSignals_tdClient_releases/releases). Optionally, you can download the sudoSignals TOX directly by [clicking here](https://github.com/SudoMagicCode/sudoSignals_tdClient_releases//releases/latest/download/SudoSignals.tox).
 
-## Open your TouchDesigner Project
+## 2. Open your TouchDesigner Project
 
 Open the TouchDesigner project you'd like to control. As an example, let's open a blank TouchDesigner project.
 
 ![Create Account 001](../../assets/images/td-remote-setup/remote-setup-001.png)
 
-## Add the sudoSignals TOX
+## 3. Add the sudoSignals TOX
 
-Next drop the sudoSignals TOX you downloaded into your project.
+Next, drop the sudoSignals TOX you downloaded into your project.
 
 ![Create Account 002](../../assets/images/td-remote-setup/remote-setup-002.png)
 
-If your project is not yet connected to signals you should see an error on the sudoSignals TOX. Let's save our project and connect it to signals.
+If your project is not yet connected to Signals you should see an error on the sudoSignals TOX. Let's save our project and connect it to Signals.
 
-## Save your Project file
+## 4. Save your Project file
 
-Save your project file on your computer, and then close your project file. Make sure you know where this is located.
+Save your project file on your computer, and then close your project file. Make sure you know where it is located.
 
-## Setup Signals to Launch this File
+## 5. Setup Signals to Launch this File
 
 Head back to to the support pages for configuring sudoSignals, and make sure this project file is attached to your installation. This is step 6 and 7 on the [Configure Installation](https://docs.sudosignals.com/gettingStarted/configureInstallation.html) page.
 
-## Launch your Project from Signals
+## 6. Launch your Project from Signals
 
 Once Signals is configured to launch your file, your project should startup without any errors present.
 
 ![Create Account 003](../../assets/images/td-remote-setup/remote-setup-003.png)
 
-## Check your Installation
+## 7. Check your Installation
 
-Once the plugin has been added to your project you should now see some additional metrics for your project. 
+Once the plugin has been added to your project, you should now see some additional metrics for your installation. 
 
 ![Create Account 004](../../assets/images/td-remote-setup/remote-setup-004.png)
 
-Notice that in the center column of the dashboard there is information about your controlled processes. This displays the assigned `Signals Name` along with toolkit, and version that it's running.
+Notice that in the center column of the Dashboard there is information about your controlled processes. This displays the assigned `Signals Name` along with the toolkit, and version that it's running.
 
-## Controls
+### Controls
 The TouchDesigner Plugin supports controlling parameters in TouchDesigner remotely from the dashboard. This is handled by pointing the `sudoSignals` plugin to an operator with custom parameters. 
 
 ![Create Account 005](../../assets/images/td-remote-setup/remote-setup-005.png)
@@ -54,22 +54,22 @@ The TouchDesigner Plugin supports controlling parameters in TouchDesigner remote
 A default operator with custom parameters is provided to help you get started.
 
 ```tip
-To set your own controls, simply drag and drop an operator with custom parameters onto the `sudoSignals` TOX's parameter for `Control Comp`. Adding additional control handles is as easy to customizing the comp and adding more controls.
+To set your own controls, simply drag and drop an operator with custom parameters onto the `sudoSignals` TOX's parameter for `Control Comp`. Adding additional control handles is as easy as customizing the Comp and adding more controls.
 ```
 
 ![Create Account 006](../../assets/images/td-remote-setup/remote-setup-006.png)
 
-You should see that these same parameters and page names are reflected on the dashboard:
+You should see that these same parameters and page names are reflected on the Dashboard:
 
 ![Create Account 007](../../assets/images/td-remote-setup/remote-setup-007.png)
 
 ```note
-Controls for the `sudoSignals` plugin work both directions. Updating a custom parameter in TouchDesigner will be reflected on the cloud dashboard, and changes on the cloud dashboard will push to the controlled TouchDesigner process. 
+Controls for the `sudoSignals` plugin work both directions. Updating a custom parameter in TouchDesigner will be reflected on the cloud Dashboard, and changes on the Dashboard will push to the controlled TouchDesigner process. 
 ```
 
-## Custom Reports and KPIs
+### Custom Reports and KPIs
 
-In addition to custom controls, the `sudoSignals` plugin also supports sending custom reports and KPIs to the dashboard. You'll see a custom parameter called `Custom Reports` on the plugin.
+In addition to custom controls, the `sudoSignals` plugin also supports sending custom reports and KPIs to the Dashboard. You'll see a custom parameter called `Custom Reports` on the plugin.
 
 ![Create Account 005](../../assets/images/td-remote-setup/remote-setup-005.png)
 
@@ -81,7 +81,7 @@ Currently only numerical values are supported by the graphing tool kit in use. T
 
 ![Create Account 008](../../assets/images/td-remote-setup/remote-setup-008.png)
 
-KPIs are sent to the Signals service at a regular interval - these are then forwarded to the cloud. These reports can be seen in the graphs section of the installation view, but selecting `Process` option from the drop down menu.
+KPIs are sent to the Signals service at a regular interval — these are then forwarded to the cloud. These reports can be seen in the graphs section of the Installation view by selecting the `Process` option from the drop down menu.
 
 ![Create Account 009](../../assets/images/td-remote-setup/remote-setup-009.png)
 
