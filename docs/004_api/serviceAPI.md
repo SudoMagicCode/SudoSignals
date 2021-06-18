@@ -141,7 +141,7 @@ ___
 #### Supported Control Styles
 
 | Style 	| Descriptor 			| Control Type     	|
-| ----- 	| ---------- 			| :-----:			|
+| ----- 	| ---------- 			| -----			|
 | `Int`		| Integer 				|	simple			|
 | `Float` 	| Float 				|	simple			|
 | `Str`		| String 				|	simple			|
