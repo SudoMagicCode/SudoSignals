@@ -17,7 +17,7 @@ For security of your project and processes, only plugin connections from the loc
 
 ## Packet Structure
 Websocket messages are sent as text formatted with JSON. They will follow this structure:
-```json
+```jsonc
 {
 	"action": <string>, 	// Action type
 	"data": <map>, 			// Data relating to that action (report metrics, controls, etc)
@@ -42,7 +42,7 @@ sudoSignals defines a number of different actions that can be used in communicat
 ### Start
 
 When the socket connection opens, the server sends an immediate "Start" packet to confirm the connection is open. This packets will look like the following:
-```json
+```jsonc
 {
 	"action": "Start",
 	"data": {}, 
@@ -54,7 +54,7 @@ The local service will always be identified as `system`.
 ---
 ### identify
 In order to register your plugin within the sudoSignals Service, you must first identify the connection by sending the unique process id, software name, and software version:
-```json
+```jsonc
 {
 	"action": "identify",
 	"data": {
@@ -71,7 +71,7 @@ The unique system id can be found in the configuration file or as an environment
 ---
 ### report
 This sends the current state of any values from your plugin you would like logged and available later. `ReportMap` structure is defined below.
-```json
+```jsonc
 {
 	"action": "report",
 	"data": <ReportMap>, 
@@ -84,7 +84,7 @@ You can send this message to the service as often as you would like however it i
 ---
 ### control-Set
 This sends the current state of controls that are available for remote control. `ControlMap` structure is defined below.
-```json
+```jsonc
 {
 	"action": "control-Set",
 	"data": <ControlMap>, 
@@ -94,7 +94,7 @@ This sends the current state of controls that are available for remote control. 
 ---
 ### control-Update
 This is a packet that can be received from the sudoSignals Service. This packet should set the controls in your plugin to the state defined in the packet. `ControlMap` structure is defined below.
-```json
+```jsonc
 {
 	"action": "control-Update",
 	"data": <ControlMap>, 
@@ -105,7 +105,7 @@ ___
 
 ## Map Definitions
 ### Report Map
-```json
+```jsonc
 	{
 		"kpis": [  //Array of all reportable values
 					{
@@ -120,7 +120,7 @@ ___
 
 
 ### Control Map
-```json
+```jsonc
 	{
 		"state": [
 			{
@@ -162,7 +162,7 @@ Control styles were developed using TouchDesigner as a prototyping platform. If 
 #### Additional Control Properties for Complex Styles
 
 ##### Menu and StrMenu
-```json
+```jsonc
 {
 	"name"			: 	<string>, 		//	required
 	"label"			: 	<string>, 		//	required
@@ -175,7 +175,7 @@ Control styles were developed using TouchDesigner as a prototyping platform. If 
 }
 ```
 ##### RGB and RGBA
-```json
+```jsonc
 {
 	"name"			: 	<string>, 		//	required
 	"label"			: 	<string>, 		//	required
@@ -224,7 +224,7 @@ Control styles were developed using TouchDesigner as a prototyping platform. If 
 }
 ```
 ##### XY and XYZ
-```json
+```jsonc
 {
 	"name"			: 	<string>, 		//	required
 	"label"			: 	<string>, 		//	required
@@ -264,7 +264,7 @@ Control styles were developed using TouchDesigner as a prototyping platform. If 
 }
 ```
 ##### UV and UVW
-```json
+```jsonc
 {
 	"name"			: 	<string>, 		//	required
 	"label"			: 	<string>, 		//	required
@@ -304,7 +304,7 @@ Control styles were developed using TouchDesigner as a prototyping platform. If 
 }
 ```
 ##### WH
-```json
+```jsonc
 {
 	"name"			: 	<string>, 		//	required
 	"label"			: 	<string>, 		//	required
