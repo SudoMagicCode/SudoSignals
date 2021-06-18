@@ -35,7 +35,6 @@ sudoSignals defines a number of different actions that can be used in communicat
 | `report` 			| Sent by Plugin to update reports in dashboard. |  
 | `control-Set` 	| Sent by Plugin to update current state of controls that are available for remote control. |
 | `control-Update` 	| Sent by Signals Service to update controls to a new state. |
-|
 
 
 ## Packets
@@ -140,6 +139,7 @@ ___
 	}
 ```
 #### Supported Control Styles
+
 | Style 	| Descriptor 			| Control Type     	|
 | ----- 	| ---------- 			| :-----:			|
 | `Int`		| Integer 				|	simple			|
@@ -156,7 +156,8 @@ ___
 | `UV` 		| UV 					|	complex			|
 | `UVW` 	| UVW 					|	complex			|
 | `WH` 		| WH 					|	complex			|
-```info
+
+```note
 Control styles were developed using TouchDesigner as a prototyping platform. If you would like to see any additional control types added to this list submit a RFE at https://github.com/SudoMagicCode/SudoSignals/discussions
 ```
 #### Additional Control Properties for Complex Styles
