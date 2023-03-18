@@ -25,6 +25,5 @@ Term | Definition
 `reports` | Key-value pairs that are sent from controlled processes to the web dashboard. This data can be graphed and downloaded from the dashboard. Report keys should be constructed as strings, and values as numbers. Reports are intended to be graphed on the sudoSignals web dashboard and are displayed in the order they are received. 
 `signals-id` | A generated ID used by sudoSignals to communicate with your local processes. This is unique to the process that sudoSignals is controlling.
 `signals-name` | The user generated name that is attached to a process running on your installation machine.
-`server` | A computer resource that you administer. Installation and server may be used interchangeably. 
 `saved states` | The state of all custom controls for a given process at a given moment in time. The complete collection of custom controls are saved at the process level in a ‘state’. States allow a user to recall a process's custom controls at a given moment. In other applications this may be referred to as a preset. 
 `web dashboard` | The sudoSignals website where a user can access the status or control parameters for their installations. 
