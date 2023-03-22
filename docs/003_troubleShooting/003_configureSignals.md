@@ -12,7 +12,7 @@ For a typical installation type, you can locate your config file in:
 
 If your config file becomes corrupt, you can replace its contents with the following:
 ```yaml
-# sudoSignals configuraton file.
+# sudoSignals configuration file.
 # only directly edit this file if you know what you are doing. 
 # editing properties in this file can lead to issues monitoring and controlling your installations.
 # To safely configure sudoSignals, right click on the sudoSignals systey tray icon and select "Configure".
