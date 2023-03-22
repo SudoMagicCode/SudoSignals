@@ -22,7 +22,7 @@ var Report1 = myPlugin.AddReport(Report1Definition)
 setInterval(()=>{
 	// Set value of report.
 	/* 
-		Note - updates are pulled from the service and may not update as
+		Note - updates are pulled from the client and may not update as
 		quickly as you set them
 	*/ 
 	Report1.SetValue(Report1.value+1)

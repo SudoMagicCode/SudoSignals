@@ -4,7 +4,7 @@ sort: 2
 
 # Installing sudoSignals
 
-sudoSignals runs as a local process on your Windows computer. In order for Signals to monitor your applications, we need to install the local service to keep your installation looking its best.
+sudoSignals runs as a local process on your Windows computer. In order for Signals to monitor your applications, we need to install the local client to keep your installation looking its best.
 
 ## 1. Download sudoSignals
 

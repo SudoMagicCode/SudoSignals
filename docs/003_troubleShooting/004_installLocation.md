@@ -29,7 +29,7 @@ Start sudoSignals with the `--console` flag
 <br>
 <br>
 ## 4. Watch messages in the sudoSignals console
-This will launch the sudoSignals service with an open console that displays any logged messages  
+This will launch the sudoSignals client with an open console that displays any logged messages  
 ![sudoSignals console](../assets/images/installation-location/sudoSignals_console.png)  
 <br>
 <br>

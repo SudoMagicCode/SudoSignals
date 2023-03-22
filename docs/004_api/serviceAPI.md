@@ -48,7 +48,7 @@ When the socket connection opens, the server sends an immediate "Start" packet t
 	"identifier": "system"
 }
 ```
-The local service will always be identified as `system`.
+The local client will always be identified as `system`.
 
 ---
 ### identify
@@ -78,7 +78,7 @@ This sends the current state of any values from your plugin you would like logge
 }
 ```
 ```note
-You can send this message to the service as often as you would like however it is rate limited from the service to the dashboard. 
+You can send this message to the client as often as you would like however it is rate limited from the client to the dashboard. 
 ```
 ---
 ### control-Set

@@ -20,7 +20,7 @@ You can then bring the sudoSignals code into your project with the following:
 //require the signals plugin 
 var SignalsPlugin = require('sudosignals_nodeplugin').SignalsPlugin
 
-//Specify configured port for sudoSignals service
+//Specify configured port for sudoSignals client
 const SERVICE_PORT = 80
 
 //Insert Process id from process configuration page in dashboard
