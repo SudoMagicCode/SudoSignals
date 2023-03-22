@@ -9,5 +9,5 @@ This resource is the single source documentation guide for working with the sudo
 ## Where to go next:
 [Getting Started](https://docs.sudosignals.com/001_gettingStarted/) - Create an account, install Signals, and configuration  
 [Working with Plugins](https://docs.sudosignals.com/002_plugins/) - Working with plugins to remotely control your installation   
-[Trouble Shooting](https://docs.sudosignals.com/003_troubleShooting/) - Coming soon  
-[API Documentation](https://docs.sudosignals.com/004_api/) - Coming soon  
+[Troubleshooting](https://docs.sudosignals.com/003_troubleShooting/) - common issues, and their resolution  
+[API Documentation](https://docs.sudosignals.com/004_api/) - build your own sudoSignals plugin
