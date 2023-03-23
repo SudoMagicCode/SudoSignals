@@ -8,12 +8,11 @@ sudoSignals runs as a local process on your Windows computer. In order for Signa
 
 ## 1. Download sudoSignals
 
-Here is the [latest sudoSignals installer](https://github.com/SudoMagicCode/sudoSignals_releases/releases/latest/download/SudoSignals_Installer.msi).
+Here is the [latest sudoSignals installer](https://sudosignals-downloads.s3.amazonaws.com/production/sudoSignals_Installer.exe).
 
-If you need an older version of Signals, you can see all of the [sudoSignals releases here](https://github.com/SudoMagicCode/sudoSignals_releases/releases).
 
 ```note
-You should always use a sudoSignals client whose system version with matching major and minor versions. For example, the client 1.0.1 is compatible with a dashboard 1.0.5; however a client with a version 1.1.1 would not be compatible with a dashboard 1.0.5. Versioning follows the pattern major.minor.patch - e.g. 1.0.1
+You should always use a sudoSignals client whose system version matches the major and minor version for the dashboard. For example, the client 1.0.1 is compatible with a dashboard 1.0.5; however a client with a version 1.1.1 would not be compatible with a dashboard 1.0.5. Versioning follows the pattern major.minor.patch - e.g. 1.0.1
 ```
 
 ## 2. Run the Installer
