@@ -150,7 +150,7 @@ The Preview Command Line field displays the equivalent command string that will 
 
 ### Environment Variables | **optional**
 
-Many applications or environments can access [Environment Variables](https://en.wikipedia.org/wiki/Environment_variable) that are set during application launch. You can add as many Environment Variables as is appropriate for your application. use the `Add environment variable` button to enter the key and value pair you'd like to have set when your process starts.
+Many applications or environments can access [Environment Variables](https://en.wikipedia.org/wiki/Environment_variable) that are set during application launch. You can add as many Environment Variables as is appropriate for your application. Use the `Add environment variable` button to enter the key and value pair you'd like to have set when your process starts.
 
 ![Configure 012](../assets/images/configure-installation/configure-012.png)
 
