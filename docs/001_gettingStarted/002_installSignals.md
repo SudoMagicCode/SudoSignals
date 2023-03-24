@@ -55,8 +55,11 @@ By default sudoSignals is installed in `Program Files(x86)\SudoSignals`
 There are some additional settings you can adjust when installing sudoSignals.  
 <br>
 ✅ - sudoSignals Client is the control software that's required with this installation  
+
 ✅ - Create a desktop shortcut (optional)
+
 ✅ - Remove beta config files - if you were a beta tester it is important to check this box  
+
 ✅ - Remove old configuration files - if you're installing a major Signals release this is an important box to check  
 
 ![Install Signals 006](../assets/images/windows-installer/install-signals-006.png)
