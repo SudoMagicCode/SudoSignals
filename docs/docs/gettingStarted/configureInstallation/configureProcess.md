@@ -53,7 +53,7 @@ It is important that this name is unique. Each process managed by Signals should
 
 If you're developing your own plugin, the `process-id` will be used by your application when communicating with signals. 
 
-# Specify a File to Open | **optional**
+# Specify a File to Open (optional)
 
 If you'd like to specify that sudoSignals open an application or file, toggle the `Auto Start` so that is enabled. 
 
@@ -70,7 +70,7 @@ This will open a file dialog that you can use to locate your file or application
 
 ![Configure 008](../../../assets/images/configure-installation/configure-009-file-explorer.png)
 
-# Specify an Application | **optional**
+# Specify an Application (optional)
 
 If you've selected a file type that's opened by another application (like `.toe`, .`unity`, etc), sudoSignals will attempt to find programs registered with Windows that can open that file. You can select the application from the drop down list, or select `Other` to manually navigate to the program you want to use.
 
@@ -89,7 +89,7 @@ If you've selected a file type that's opened by another application (like `.toe`
 If you're working with an executable built in Unreal Engine, you may need to take a few extra steps in your configuration. The `.exe` built by Unreal sometimes uses a process starter that runs another executable. Be sure that you're targeting the correct `.exe` when using Signals to be able to faithfully stop and start your process.
 
 
-# Auto Restart | **optional**
+# Auto Restart (optional)
 
 sudoSignals can monitor applications and keep them alive if they quit unexpectedly. To enable Auto Restarting for your process, toggle on the `Auto Restart` feature in the Process configuration.
 
@@ -100,20 +100,19 @@ To have Signals keep the application always running, leave the Restart Limit set
 {: .note }
 If you don't want your application to restart infinitely, then specify a Restart Limit value that is greater than 0 so that Signals only restarts the application a fixed number of times.
 
-
-# Advanced Options | **optional**
+# Advanced Options (optional)
 
 Some installations require extra care during start-up and sudoSignals has some advanced features to help ensure everything runs smoothly. To see the advanced Process options expand the `Advanced Options` carrot. 
 
 ![Configure 013](../../../../assets/images/configure-installation/configure-013.png)
 
-# Preview Command Line | **optional**
+# Preview Command Line (optional)
 
 The Preview Command Line field displays the equivalent command string that will be used to start your process. If your familiar with starting applications from the Windows terminal reviewing this command may help ensure that your application starts up correctly.
 
 ![Configure 011](../../../../assets/images/configure-installation/configure-011.png)
 
-# Environment Variables | **optional**
+# Environment Variables (optional)
 
 Many applications or environments can access [Environment Variables] that are set during application launch. You can add as many Environment Variables as is appropriate for your application. Use the `Add environment variable` button to enter the key and value pair you'd like to have set when your process starts.
 

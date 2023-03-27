@@ -97,5 +97,4 @@ Currently only numerical values are supported by the graphing tool kit in use. T
 
 KPIs are sent to the Signals service at a regular interval — these are then forwarded to the cloud. These reports can be seen in the graphs section of the Installation view by selecting the `Process` option from the drop down menu.
 
-![Create Account 009](../../../../assets/images/td-remote-setup/remote-setup-009.png)
 
