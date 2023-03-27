@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Signals Config File
+title: sudoSignals Config File
 parent: Troubleshooting
 nav_order: 3
 ---
