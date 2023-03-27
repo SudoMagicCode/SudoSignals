@@ -72,7 +72,7 @@ If you only need to know if your installation machine is online, you can click t
 # Configure a Process
 See the complete walkthrough on how to [Configure a Process](configureProcess).
 
-# Configure Additional Processes | **optional**
+# Configure Additional Processes (optional)
 
 sudoSignals can launch as many processes as your installation requires. Repeat this process as many times as you need to configure your installation. 
 
