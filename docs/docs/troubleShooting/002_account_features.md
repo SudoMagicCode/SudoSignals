@@ -1,5 +1,8 @@
 ---
-sort: 2
+layout: default
+title: sudoSignals Features 
+parent: Troubleshooting
+nav_order: 2
 ---
 
 # sudoSignals Features 

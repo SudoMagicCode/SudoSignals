@@ -1,5 +1,8 @@
 ---
-sort: 4
+layout: default
+title: Config Files & Client Logs
+parent: Troubleshooting
+nav_order: 5
 ---
 
 # Config Files & Client Logs

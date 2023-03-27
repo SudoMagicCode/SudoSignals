@@ -1,5 +1,8 @@
 ---
-sort: 3
+layout: default
+title: Signals Config File
+parent: Troubleshooting
+nav_order: 4
 ---
 
 # Installation Location

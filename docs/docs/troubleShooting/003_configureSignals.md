@@ -1,5 +1,8 @@
 ---
-sort: 2
+layout: default
+title: Signals Config File
+parent: Troubleshooting
+nav_order: 3
 ---
 
 # Signals Config File
