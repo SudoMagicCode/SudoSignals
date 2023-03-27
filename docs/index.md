@@ -7,7 +7,10 @@ permalink: /
 ---
 # sudoSignals
 
-sudoSignals is an application monitor and remote operation service. With Signals, a local client application communicates with an applications locally, and then acts as a bridge to a remote, web Dashboard. It's important to understand the mechanics of how Signals operates in order to best take advantage of this tool, and have a seamless remote operation experience. 
+sudoSignals is an application monitor and remote operation service.
+{: .fs-6 .fw-300 }
+
+ With Signals, a local client application communicates with an applications locally, and then acts as a bridge to a remote, web Dashboard. It's important to understand the mechanics of how Signals operates in order to best take advantage of this tool, and have a seamless remote operation experience. 
 
 ## What is this resource?
 
@@ -15,6 +18,6 @@ This resource is the single source documentation guide for working with the sudo
 
 ## Where to go next:
 [Getting Started](https://docs.sudosignals.com/docs/getting-started) - Create an account, install Signals, and configuration  
-[Working with Plugins](https://docs.sudosignals.com/docs/plugins) - Working with plugins to remotely control your installation   
+[Working with Plugins](https://docs.sudosignals.com/docs/plugins)- Working with plugins to remotely control your installation   
 [Troubleshooting](https://docs.sudosignals.com/docs/troubleshooting) - common issues, and their resolution  
 [API Documentation](https://docs.sudosignals.com/docs/api) - build your own sudoSignals plugin

@@ -9,7 +9,7 @@ nav_order: 2
 # Remote Control | SudoMagic Plugin
 {: .no_toc }
 
-## Table of contents
+Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -20,17 +20,17 @@ Remotely controlling your TouchDesigner installation with the SudoMagic plugin i
 
 * [**Download the TouchDesigner Plugin**](https://github.com/SudoMagicCode/sudoSignals_tdClient_releases//releases/latest/download/SudoSignals.tox)
 
-## 1. Download the Plugin
+# Download the Plugin
 
 The Signals plugin can be downloaded from the [github page](https://github.com/SudoMagicCode/sudoSignals_tdClient_releases/releases). Optionally, you can download the sudoSignals TOX directly by [clicking here](https://github.com/SudoMagicCode/sudoSignals_tdClient_releases//releases/latest/download/SudoSignals.tox).
 
-## 2. Open your TouchDesigner Project
+# Open your TouchDesigner Project
 
 Open the TouchDesigner project you'd like to control. As an example, let's open a blank TouchDesigner project.
 
 ![Create Account 001](../../../../assets/images/td-remote-setup/remote-setup-001.png)
 
-## 3. Add the sudoSignals TOX
+# Add the sudoSignals TOX
 
 Next, drop the sudoSignals TOX you downloaded into your project.
 
@@ -38,21 +38,21 @@ Next, drop the sudoSignals TOX you downloaded into your project.
 
 If your project is not yet connected to Signals you should see an error on the sudoSignals TOX. Let's save our project and connect it to Signals.
 
-## 4. Save your Project file
+# Save your Project file
 
 Save your project file on your computer, and then close your project file. Make sure you know where it is located.
 
-## 5. Setup Signals to Launch this File
+# Setup Signals to Launch this File
 
 Head back to to the support pages for configuring sudoSignals, and make sure this project file is attached to your installation. This is step 6 and 7 on the [Configure Installation](https://docs.sudosignals.com/gettingStarted/configureInstallation.html) page.
 
-## 6. Launch your Project from Signals
+# Launch your Project from Signals
 
 Once Signals is configured to launch your file, your project should startup without any errors present.
 
 ![Create Account 003](../../../../assets/images/td-remote-setup/remote-setup-003.png)
 
-## 7. Check your Installation
+# Check your Installation
 
 Once the plugin has been added to your project, you should now see some additional metrics for your installation. 
 
@@ -60,7 +60,7 @@ Once the plugin has been added to your project, you should now see some addition
 
 Notice that in the center column of the Dashboard there is information about your controlled processes. This displays the assigned `Signals Name` along with the toolkit, and version that it's running.
 
-### Controls
+## Controls
 The TouchDesigner Plugin supports controlling parameters in TouchDesigner remotely from the dashboard. This is handled by pointing the `sudoSignals` plugin to an operator with custom parameters. 
 
 ![Create Account 005](../../../../assets/images/td-remote-setup/remote-setup-005.png)
@@ -81,7 +81,7 @@ You should see that these same parameters and page names are reflected on the Da
 Controls for the `sudoSignals` plugin work both directions. Updating a custom parameter in TouchDesigner will be reflected on the cloud Dashboard, and changes on the Dashboard will push to the controlled TouchDesigner process. 
 
 
-### Custom Reports and KPIs
+## Custom Reports and KPIs
 
 In addition to custom controls, the `sudoSignals` plugin also supports sending custom reports and KPIs to the Dashboard. You'll see a custom parameter called `Custom Reports` on the plugin.
 
