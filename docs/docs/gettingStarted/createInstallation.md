@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Crate an Installation
+title: Create an Installation
 parent: Getting Started
 nav_order: 3
 ---
