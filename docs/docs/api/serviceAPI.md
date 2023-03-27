@@ -20,9 +20,10 @@ sudoSignals has an open websocket API for controlling and reporting on process b
 
 ## Service Connections
 A plugin can connect to the sudoSignals Service via a websocket connection. This connection port is defined in the configuration for the service. The default settings open a websocket connection at `ws://localhost:80`. 
-```warning
+
+{ .warning }
 For security of your project and processes, only plugin connections from the local machine will be accepted. 
-```
+
 
 
 ## Packet Structure
@@ -38,11 +39,12 @@ Websocket messages are sent as text formatted with JSON. They will follow this s
 ## Actions
 sudoSignals defines a number of different actions that can be used in communication between the Plugin and the Service.
 
-| Action			| Descriptor 	|
+| Action		| Descriptor 	|
 | --------------	| ------------- |
-| `Start`			| Sent by Signals Service on connection to confirm connection is open. |
+| `Start`		| Sent by Signals Service on connection to confirm connection is open. |
 | `identify` 		| Sent by Plugin to give information about process and identify connections for monitoring.	|
-| `report` 			| Sent by Plugin to update reports in dashboard. |  
+| `report` 		| Sent by Plugin to update reports in dashboard. | 
+| `log` 		| Sent by Plugin to log a message in the dashboard. |  
 | `control-Set` 	| Sent by Plugin to update current state of controls that are available for remote control. |
 | `control-Update` 	| Sent by Signals Service to update controls to a new state. |
 
@@ -70,44 +72,58 @@ In order to register your plugin within the sudoSignals Service, you must first 
 		"software": "TouchDesigner",
 		"version": "099 21000"
 	}, 
-	"identifier": {SIGNALS_ID HERE}
+	"identifier": "SIGNALS ID HERE"
 }
 ```
 
-```tip
+{ .note }
 The unique system id can be found in the configuration file or as an environment variable specified when the process was started called "SIGNALS_ID".
-```
+
 ---
 ### report
-This sends the current state of any values from your plugin you would like logged and available later. `ReportMap` structure is defined below.
+This sends the current state of any values from your plugin you would like logged and available later. [`<ReportMap>`](#report-map) structure is defined below.
 ```jsonc
 {
 	"action": "report",
 	"data": <ReportMap>, 
-	"identifier": {SIGNALS_ID HERE}
+	"identifier": "SIGNALS ID HERE"
 }
 ```
-```note
+{ .note }
 You can send this message to the client as often as you would like however it is rate limited from the client to the dashboard. 
+
+---
+### log
+This sends a log message from your plugin that you would like to see in the dashboard. [`<LogMap>`](#log-map) structure is defined below.
+```jsonc
+{
+	"action": "log",
+	"data": <LogMap>, 
+	"identifier": "SIGNALS ID HERE"
+}
 ```
+{ .note }
+Log messages are limited in length to 256 characters.
+You can send this message to the client as often as you would like however it is rate limited from the client to the dashboard. Timing is maintained by the client and will be reported based on your system clock.
+
 ---
 ### control-Set
-This sends the current state of controls that are available for remote control. `ControlMap` structure is defined below.
+This sends the current state of controls that are available for remote control. [`<ControlMap>`](#control-map) structure is defined below.
 ```jsonc
 {
 	"action": "control-Set",
 	"data": <ControlMap>, 
-	"identifier": {SIGNALS_ID HERE}
+	"identifier": "SIGNALS ID HERE"
 }
 ```
 ---
 ### control-Update
-This is a packet that can be received from the sudoSignals Service. This packet should set the controls in your plugin to the state defined in the packet. `ControlMap` structure is defined below.
+This is a packet that can be received from the sudoSignals Service. This packet should set the controls in your plugin to the state defined in the packet. [`<ControlMap>`](#control-map) structure is defined below.
 ```jsonc
 {
 	"action": "control-Update",
 	"data": <ControlMap>, 
-	"identifier": {SIGNALS_ID HERE}
+	"identifier": "SIGNALS ID HERE"
 }
 ```
 ___
@@ -128,6 +144,14 @@ ___
 ----
 
 ### Log Map
+```jsonc
+	{
+		"logLevel"	: <int>, 	// required - 0=info, 1=warn, 2=critical
+		"message"	: <string> 	// required - the message you would like logged 
+	}
+```
+{ .note }
+Log messages are limited in length to 256 characters.
 
 
 ----
@@ -140,12 +164,12 @@ ___
 			"name": <string>, 	// Page Name - this corresponds to tabs on the dashboard.
  			"pars": [			// list of pars that are contained in that tab.
 					{
-						"name"			: 	<string>, 		//	required
-						"label"			: 	<string>, 		//	required
-						"style"			: 	<string>, 		//	required
-						"currentValue"	: 	<any>, 			//	required
-						"index"			: 	<int>,			//	optional
-						"path"			: 	<string>		// 	optional
+						"name"			: 	<string>, 	//	required
+						"label"			: 	<string>, 	//	required
+						"style"			: 	<string>, 	//	required
+						"currentValue"	: 	<any>, 		//	required
+						"index"			: 	<int>,		//	optional
+						"path"			: 	<string>	// 	optional
 					}
 				]
 			}
@@ -171,9 +195,9 @@ ___
 | `UVW` 	| UVW 					|	complex			|
 | `WH` 		| WH 					|	complex			|
 
-```note
+{ .note }
 Control styles were developed using TouchDesigner as a prototyping platform. If you would like to see any additional control types added to this list submit a RFE at https://github.com/SudoMagicCode/SudoSignals/discussions
-```
+
 #### Additional Control Properties for Complex Styles
 
 ##### Menu and StrMenu
