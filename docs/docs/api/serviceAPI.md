@@ -76,7 +76,7 @@ In order to register your plugin within the sudoSignals Service, you must first 
 }
 ```
 
-{ .note }
+{: .note }
 The unique system id can be found in the configuration file or as an environment variable specified when the process was started called "SIGNALS_ID".
 
 ---
@@ -89,7 +89,7 @@ This sends the current state of any values from your plugin you would like logge
 	"identifier": "SIGNALS ID HERE"
 }
 ```
-{ .note }
+{: .note }
 You can send this message to the client as often as you would like however it is rate limited from the client to the dashboard. 
 
 ---
@@ -102,7 +102,7 @@ This sends a log message from your plugin that you would like to see in the dash
 	"identifier": "SIGNALS ID HERE"
 }
 ```
-{ .note }
+{: .note }
 Log messages are limited in length to 256 characters.
 You can send this message to the client as often as you would like however it is rate limited from the client to the dashboard. Timing is maintained by the client and will be reported based on your system clock.
 
@@ -150,7 +150,7 @@ ___
 		"message"	: <string> 	// required - the message you would like logged 
 	}
 ```
-{ .note }
+{: .note }
 Log messages are limited in length to 256 characters.
 
 
@@ -195,7 +195,7 @@ Log messages are limited in length to 256 characters.
 | `UVW` 	| UVW 					|	complex			|
 | `WH` 		| WH 					|	complex			|
 
-{ .note }
+{: .note }
 Control styles were developed using TouchDesigner as a prototyping platform. If you would like to see any additional control types added to this list submit a RFE at https://github.com/SudoMagicCode/SudoSignals/discussions
 
 #### Additional Control Properties for Complex Styles
