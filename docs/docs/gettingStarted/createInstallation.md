@@ -27,7 +27,7 @@ Start by heading to the sudoSignals dashboard at [dashboard.sudosignals.com](htt
 
 # Create an Installation
 
-If you're creating your first installation you can click `Get Started`. 
+If you're creating your first installation you can click `Create Installation`. 
 
 ![Create Installation 001](../../../assets/images/create-installation/create-installation-001.png)
 

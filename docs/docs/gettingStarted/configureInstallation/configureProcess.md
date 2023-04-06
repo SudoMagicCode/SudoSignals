@@ -68,7 +68,7 @@ If you have a lot of windows open on your desktop, the file dialog may be hidden
 
 This will open a file dialog that you can use to locate your file or application. 
 
-![Configure 008](../../../assets/images/configure-installation/configure-009-file-explorer.png)
+![Configure 009](../../../../assets/images/configure-installation/configure-009-explorer.png)
 
 # Specify an Application (optional)
 
@@ -104,7 +104,7 @@ If you don't want your application to restart infinitely, then specify a Restart
 
 Some installations require extra care during start-up and sudoSignals has some advanced features to help ensure everything runs smoothly. To see the advanced Process options expand the `Advanced Options` carrot. 
 
-![Configure 013](../../../../assets/images/configure-installation/configure-013.png)
+![Configure 013A](../../../../assets/images/configure-installation/configure-013a.png)
 
 # Preview Command Line (optional)
 

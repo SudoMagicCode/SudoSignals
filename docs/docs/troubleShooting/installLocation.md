@@ -27,7 +27,8 @@ In rare occasions if you are debugging a performance issue you may need to run s
 # Quit Signals and any controlled process  
 
 Quit sudoSignals from the tray icon and close any open sudoSignals monitored process  
-![Quit sudoSignals](../../../assets/images/installation-location/quit_from_tray.png)  
+
+![Quit Signals](../../../../assets/images/configure-installation/configure-002.png)
 
 # Open a new terminal window
 In a new terminal window move to the installation directory for sudoSignals  
@@ -53,4 +54,4 @@ This will launch the sudoSignals client with an open console that displays any l
 
 To close the console version of sudoSignals, quit sudoSignals from the tray icon  
 
-![Quit sudoSignals](../../../assets/images/installation-location/quit_from_tray.png)
+![Quit Signals](../../../../assets/images/configure-installation/configure-002.png)
