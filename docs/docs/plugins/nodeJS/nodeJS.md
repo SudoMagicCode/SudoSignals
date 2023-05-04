@@ -9,7 +9,7 @@ permalink: /docs/plugins/nodeJS
 
 # NodeJS
 
-This plugin operates by communicating to the sudoSignals local service installed on your machine. For more information on how to install check out the [getting started instructions.](https://docs.sudosignals.com/001_gettingStarted/002_installSignals.html)
+This plugin operates by communicating to the sudoSignals local service installed on your machine. For more information on how to install check out the [getting started instructions.](https://docs.sudosignals.com/docs/gettingStarted/installSignals/)
 
 To getting started using NodeJS and learn more about developing NodeJS apps check out [https://nodejs.dev/learn](https://nodejs.dev/learn) 
 
