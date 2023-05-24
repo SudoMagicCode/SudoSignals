@@ -1,15 +1,34 @@
 ---
 layout: default
-title: Control and Configuration
+title: Logging, Reporting, and Controls
 parent: NodeJS
 grand_parent: Plugins
 nav_order: 2
 ---
 
-# Reporting and Controls
+# Logging, Reporting, and Controls
 To unlock more advanced features of sudoSignals in a NodeJS app we have to add a few more elements.  
 
-## 1. Creating Reports
+## 1. Creating Logs
+Reports are one of the ways sudoSignals enables you to monitor whats happening in your installation. Here's how we set them up with the nodeJS plugin:
+
+```javascript
+//require the signals plugin 
+var SignalsPlugin = require('sudosignals_nodeplugin').SignalsPlugin
+
+//Insert Process id from process configuration page in dashboard
+const PROCESS_ID = "PROCESS_ID_HERE"
+
+//Create plugin.
+var myPlugin = new SignalsPlugin(id=PROCESS_ID, onStart=()=>{
+	console.log('Plugin has connected to signals service.')
+	myPlugin.Log("Hello sudoSignals!", logLevel=0) 			// logs a "INFO" message
+	myPlugin.Log("Uh Oh sudoSignals!", logLevel=1) 			// logs a "WARN" message
+	myPlugin.Log("sudoSignals, we have a problem...", logLevel=2) 	// logs a "CRIT" message
+})
+```
+
+## 2. Creating Reports
 Reports are one of the ways sudoSignals enables you to monitor whats happening in your installation. Here's how we set them up with the nodeJS plugin:
 
 ```javascript
@@ -34,7 +53,7 @@ setInterval(()=>{
 
 ```
 
-## 2. Creating Controls
+## 3. Creating Controls
 Controls are a great way of controlling your project when you can't physically access the systems its on. There are many types of supported controls. Here is how to create them:
 ```javascript
 //Create a control definition
