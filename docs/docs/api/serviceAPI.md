@@ -14,17 +14,16 @@ nav_order: 1
 {:toc}
 ---
 
-sudoSignals has an open websocket API for controlling and reporting on process behavior. The sudoSignals Service is reponsible for starting processes on the local server, reporting system dianostic information, and relaying information and control settings between the dashboard and the plugins embedded in the monitored processes.  
+sudoSignals has an open websocket API for controlling and reporting on process behavior. The sudoSignals Service is reponsible for starting processes on the local server, reporting system diagnostic information, and relaying information and control settings between the dashboard and the plugins embedded in the monitored processes.  
 
 ![sudoSignals Plugin Flow](../../../assets/images/plugin-api/signals-plugin-api-001.png)
 
 ## Service Connections
-A plugin can connect to the sudoSignals Service via a websocket connection. This connection port is defined in the configuration for the service. The default settings open a websocket connection at `ws://localhost:80`. 
+A plugin can connect to the sudoSignals client via a websocket connection on port `57002`. Once connected the API will allow you to integrate with the sudoSignals dashboard. 
 
-{ .warning }
+
+{: .warning }
 For security of your project and processes, only plugin connections from the local machine will be accepted. 
-
-
 
 ## Packet Structure
 Websocket messages are sent as text formatted with JSON. They will follow this structure:
