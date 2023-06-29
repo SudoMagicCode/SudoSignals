@@ -88,46 +88,25 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Request Features',
+                to: 'https://github.com/SudoMagicCode/SudoSignals/discussions',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Issues',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Report a bug 🐛',
+                href: 'https://forms.clickup.com/f/16ky7-1036/3TNCU1Q2JMMEZ5XS43',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} SudoMagic, LLC. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
