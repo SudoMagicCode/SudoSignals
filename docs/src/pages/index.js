@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Why Use a TouchDesigner Style Guide 🤔
+            ✨ Take me to the Docs ✨
           </Link>
         </div>
       </div>
