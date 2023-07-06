@@ -18,5 +18,8 @@ Log messages are formatted as:
 
 ![View 05](/img/view-installation/view-stats-005.png)
 
-{: .warning }
+:::danger
+
 The current character limit for logs is 255.
+
+:::

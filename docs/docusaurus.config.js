@@ -30,7 +30,9 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
+
   },
+  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
 
   presets: [
     [
@@ -39,6 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -77,7 +80,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          {to: '/docs/intro', label: 'Docs', position: 'left'},
+          // {to: '/docs/intro', label: 'Docs', position: 'left'},
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -107,7 +110,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SudoMagic, LLC. Built with Docusaurus.`,
+        copyright: 'Copyright © ${new Date().getFullYear()} SudoMagic, LLC.',
       },
       prism: {
         theme: lightCodeTheme,

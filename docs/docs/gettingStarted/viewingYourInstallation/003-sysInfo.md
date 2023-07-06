@@ -7,7 +7,6 @@ description: "An overview of the features on the system info view on the Dashboa
 # System Info
 
 System Information contains detailed information about the remote installation's hardware.
-{: .fs-6 .fw-300 }
 
 These details can often be critical when troubleshooting performance issues, or determining if there may be a critical system issue. Hardware details in this view are reported directly from Windows [hardware discovery](https://pkg.go.dev/github.com/jaypipes/ghw). This view is comprised of:
 * Machine Details  

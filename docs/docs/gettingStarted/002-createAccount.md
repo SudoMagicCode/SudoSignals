@@ -7,7 +7,6 @@ description: "An overview of creating your sudoSignals Account"
 # Create Your sudoSignals Account
 
 To control your installations remotely you'll need to have a sudoSignals account. The steps below will walk you through creating a Signals account.
-{: .fs-6 .fw-300 }
 
 ## Open your Browser
 In your browser head to [dashboard.sudosignals.com](https://dashboard.sudosignals.com/). You should see a page that looks like:

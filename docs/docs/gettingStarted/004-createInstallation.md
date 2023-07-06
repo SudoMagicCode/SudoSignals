@@ -8,7 +8,6 @@ description: "A step-by-step guide through creating your first installation"
 
 
 sudoSignals can be used to monitor, control, and restart applications. 
-{: .fs-6 .fw-300 }
 
 We treat a computer as an `installation` which can manage and control multiple applications. Installations have a unique `product-id` which is used to link your computer and all of its operations to the web dashboard. 
 
