@@ -68,6 +68,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
+          srcDark: 'img/logo_dark.png',
         },
         items: [
           // {
