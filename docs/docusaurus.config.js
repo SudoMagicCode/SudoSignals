@@ -32,7 +32,15 @@ const config = {
     locales: ['en'],
 
   },
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // options
+        indexBlog:false,
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -47,13 +55,7 @@ const config = {
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -110,7 +112,7 @@ const config = {
             ],
           },
         ],
-        copyright: 'Copyright © ${new Date().getFullYear()} SudoMagic, LLC.',
+        copyright: `Copyright © ${new Date().getFullYear()} SudoMagic, LLC.`,
       },
       prism: {
         theme: lightCodeTheme,
