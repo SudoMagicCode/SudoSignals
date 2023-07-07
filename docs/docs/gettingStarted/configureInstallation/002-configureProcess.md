@@ -70,7 +70,7 @@ This will open a file dialog that you can use to locate your file or application
 
 ## Specify an Application (optional)
 
-If you've selected a file type that's opened by another application (like `.toe`, .`unity`, etc), sudoSignals will attempt to find programs registered with Windows that can open that file. You can select the application from the drop down list, or select `Other` to manually navigate to the program you want to use.
+If you've selected a file type that's opened by another application (like `.toe`, `.unity`, etc), sudoSignals will attempt to find programs registered with Windows that can open that file. You can select the application from the drop down list, or select `Other` to manually navigate to the program you want to use.
 
 ![Configure 010](/img/configure-installation/configure-010.png)
 
