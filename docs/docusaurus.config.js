@@ -37,7 +37,7 @@ const config = {
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
         // options
-        indexBlog:false,
+        indexBlog: false,
       },
     ],
   ],
@@ -67,7 +67,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/signals-sharing-card-01.jpg',
       navbar: {
         title: 'Home',
         logo: {
