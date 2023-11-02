@@ -53,7 +53,7 @@ setInterval(()=>{
 
 ## 3. Creating Controls
 Controls are a great way of controlling your project when you can't physically access the systems its on. There are many types of supported controls. Here is how to create them:
-```javascript
+```javascript 
 //Create a control definition
 /*
 Styles currently supported by sudoSignals:
