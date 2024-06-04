@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "name": "Sudo Widgets",
+            "path": "../docs/",
+            "cwd": "${workspaceFolder}/docs",
+        },
+    ],
+    "settings": {
+        "workbench.colorTheme": "Super Contrast (rainglow)",
+    },
+}
