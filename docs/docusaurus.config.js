@@ -68,7 +68,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/signals-sharing-card-01.jpg',
       navbar: {
-        title: 'Home',
+        title: 'v1',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -81,7 +81,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          // {to: '/docs/intro', label: 'Docs', position: 'left'},
+          { to: '/v2', label: 'v2', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',

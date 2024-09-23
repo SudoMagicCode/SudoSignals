@@ -1,11 +1,12 @@
 ---
 sidebar_position: 1
-slug: /
-title: Home
+slug: /v2
+title: Signals v2
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+displayed_sidebar: v2Sidebar
 ---
 
-# sudoSignals Live
+# sudoSignals Version 2 - Coming Soon
 
 sudoSignals is an application monitor and remote operation service.
 
