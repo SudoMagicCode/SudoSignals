@@ -1,6 +1,6 @@
 ---
 title: Dashboard
-slug: /v1/getting-started/view-installations/dashboard
+slug: /v2/getting-started/view-installations/dashboard
 description: "An overview of the features on the Dashboard"
 ---
 
@@ -29,7 +29,7 @@ Each process is represented as a small rectangular tile below the Start and Stop
 
 ## Controls
 
-Controls can be accessed by using one of the [SudoMagic developed plugins](https://docs.sudosignals.com/002_plugins/), or by building your own controls by following the sudoSignals [client API](/v1/api). Depending on the environment, the [SudoMagic](https://www.sudomagic.com/) plugins are intended to be drag and drop solutions for fast integration with the sudoSignals dashboard. The TouchDesigner plugin, for example, lets you quickly mirror your controls from your TouchDesigner project in a web friendly format. Control schemas are pre-defined, and allow for your development team to focus on building compelling experiences rather than creating overly complex dashboard controls.
+Controls can be accessed by using one of the [SudoMagic developed plugins](https://docs.sudosignals.com/002_plugins/), or by building your own controls by following the sudoSignals [client API](/v2/api). Depending on the environment, the [SudoMagic](https://www.sudomagic.com/) plugins are intended to be drag and drop solutions for fast integration with the sudoSignals dashboard. The TouchDesigner plugin, for example, lets you quickly mirror your controls from your TouchDesigner project in a web friendly format. Control schemas are pre-defined, and allow for your development team to focus on building compelling experiences rather than creating overly complex dashboard controls.
 
 ## Graphs and Reports
 
