@@ -6,7 +6,7 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 displayed_sidebar: v2Sidebar
 ---
 
-# sudoSignals Version 2 - Coming Soon
+# sudoSignals v2
 
 sudoSignals is an application monitor and remote operation service.
 

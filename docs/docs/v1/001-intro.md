@@ -6,7 +6,7 @@ description: ""
 displayed_sidebar: v1Sidebar
 ---
 
-# sudoSignals V1 - Same as Live
+# sudoSignals 
 
 sudoSignals is an application monitor and remote operation service.
 

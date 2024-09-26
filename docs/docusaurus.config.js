@@ -18,7 +18,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SudoMagic', // Usually your GitHub org/user name.
-  projectName: 'sudoSiganls', // Usually your repo name.
+  projectName: 'sudoSignals', // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,10 +65,19 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '<b>🎉️ sudoSignals v2 is in Beta Early Access <a target="_blank" rel="noopener noreferrer" href="/v2">check out the docs here!</a> 📝</b>',
+        backgroundColor: '#DFF50D',
+        textColor: '#181818',
+        isCloseable: false,
+      },
+      
       // Replace with your project's social card
       image: 'img/signals-sharing-card-01.jpg',
       navbar: {
-        title: 'v1',
+        title: 'Home',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -81,6 +90,7 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
+          { to: '/v1', label: 'v1', position: 'left' },
           { to: '/v2', label: 'v2', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
@@ -99,11 +109,6 @@ const config = {
                 label: 'Request Features',
                 to: 'https://github.com/SudoMagicCode/SudoSignals/discussions',
               },
-            ],
-          },
-          {
-            title: 'Issues',
-            items: [
               {
                 label: 'Report a bug 🐛',
                 href: 'https://forms.clickup.com/f/16ky7-1036/3TNCU1Q2JMMEZ5XS43',

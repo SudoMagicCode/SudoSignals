@@ -4,45 +4,70 @@
  * work well for content-centric websites.
  */
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+ 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #7961db;
-  --ifm-color-primary-dark: #6347d5;
-  --ifm-color-primary-darker: #583ad2;
-  --ifm-color-primary-darkest: #4429b4;
-  --ifm-color-primary-light: #8f7be1;
-  --ifm-color-primary-lighter: #9a88e4;
-  --ifm-color-primary-lightest: #baaeed;
-  --ifm-font-family-base: 'Open Sans'; 
+  --ifm-font-family-base: 'Public Sans'; 
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-menu-color-active: white;
+  --ifm-menu-color-active: #FFFFFF;
+
+  --ifm-color-primary: #5F25BB;
+  --ifm-color-primary-dark: #5621A8;
+  --ifm-color-primary-darker: #511F9F;
+  --ifm-color-primary-darkest: #431A83;
+  --ifm-color-primary-light: #6929CE;
+  --ifm-color-primary-lighter: #6E2CD5;
+  --ifm-color-primary-lightest: #8148DB;
   --ifm-menu-color-background-active: var(--ifm-color-primary);
+  --ifm-link-color:var(--ifm-color-primary-lightest);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #8f7be1;
-  --ifm-color-primary-dark: #775fdb;
-  --ifm-color-primary-darker: #6b50d7;
-  --ifm-color-primary-darkest: #4b2dc6;
-  --ifm-color-primary-light: #a797e7;
-  --ifm-color-primary-lighter: #b3a6eb;
-  --ifm-color-primary-lightest: #d7d0f4;
+  --ifm-color-primary: #C7A8FF;
+  --ifm-color-primary-dark: #AC7EFF;
+  --ifm-color-primary-darker: #9E69FF;
+  --ifm-color-primary-darkest: #7529FF;
+  --ifm-color-primary-light: #E2D2FF;
+  --ifm-color-primary-lighter: #F0E7FF;
+  --ifm-color-primary-lightest: #FFFFFF;
   --ifm-menu-color-background-active: var(--ifm-color-primary-dark);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --ifm-menu-color-background-active: var(--ifm-color-primary-dark);
+  --ifm-link-color: var(--ifm-color-primary);
+  --aa-muted-color-alpha: var(--ifm-color-lighter) !important;
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #293139;
+  --ifm-footer-background-color: #212123;
 }
 
 .menu__list-item-collapsible .menu__link:hover, .menu__list-item-collapsible .menu__link--active{
-  color: #8f7be1;
-  font-weight: bold;
+  color: #a270ff;
 }
 
 .table-of-contents__link:hover, .table-of-contents__link:hover code, .table-of-contents__link--active, .table-of-contents__link--active code {
   font-weight: bold;
+}
+
+.aa-DetachedSearchButtonIcon{
+  color: #727272 !important;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/static/img/hero-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
 }

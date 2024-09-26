@@ -1,10 +1,10 @@
 ---
-title: Create an Installation
+title: Create an Installation (OLD)
 slug: /v2/getting-started/create-an-installation
 description: "A step-by-step guide through creating your first installation"
 ---
 
-# Create an Installation
+# Create an Installation (OLD)
 
 
 sudoSignals can be used to monitor, control, and restart applications. 

@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Get Configured',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/ascii/02.svg').default,
     description: (
       <>
         Details about getting sudoSignals started on your installation, 
@@ -14,22 +14,21 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Find Plugins',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Organize Your Machines',
+    Svg: require('@site/static/img/ascii/03.svg').default,
     description: (
       <>
-        Using a plugin - you'll find details about the officially supported
-        SudoMagic plugins here along with quick access to their downloads.
+        Look at our v2 docs for the latest features that allow you to organize machiens into installations.
       </>
     ),
   },
   {
-    title: 'Use our API',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'sudoSignals Plugin',
+    Svg: require('@site/static/img/ascii/05.svg').default,
     description: (
       <>
-        Chomping to write your own plugin - you can also find all the details you'll
-        need to get your own plugin up and running.
+        Using a plugin - you'll find details about the officially supported
+        SudoMagic plugins here along with quick access to their downloads.
       </>
     ),
   },
