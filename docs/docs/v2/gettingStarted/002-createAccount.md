@@ -39,4 +39,4 @@ Finally, click the link to confirm your account.
 
 You should now be able to log in on the sudoSignals dashboard.
 
-![Create Account 005](/img/gettingStarted/create-account-005.png)
+![Create Account 005](/img/gettingStarted/v2-create-account-005.png)

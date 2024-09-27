@@ -73,7 +73,7 @@ const config = {
         textColor: '#181818',
         isCloseable: false,
       },
-      
+
       // Replace with your project's social card
       image: 'img/signals-sharing-card-01.jpg',
       navbar: {
@@ -106,12 +106,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Request Features',
+                label: '✨ Request Features',
                 to: 'https://github.com/SudoMagicCode/SudoSignals/discussions',
               },
               {
-                label: 'Report a bug 🐛',
-                href: 'https://forms.clickup.com/f/16ky7-1036/3TNCU1Q2JMMEZ5XS43',
+                label: '🪲 Report a Bug',
+                to: 'https://forms.clickup.com/f/16ky7-1036/3TNCU1Q2JMMEZ5XS43',
               },
             ],
           },
