@@ -1,6 +1,6 @@
 ---
 title: Configure the Client
-slug: /v2/getting-started/configure-the-client
+slug: /v2/getting-started/client-configuration/configure-the-client
 description: "A step-by-step guide through creating your first installation"
 
 ---

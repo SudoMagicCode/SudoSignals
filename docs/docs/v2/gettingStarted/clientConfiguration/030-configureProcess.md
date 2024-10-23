@@ -1,7 +1,7 @@
 ---
 title: Configure a Process
-slug: /v2/getting-started/configure-an-installation/configure-a-process
-description: "Configuring a process"
+slug: /v2/getting-started/client-configuration/configure-a-process
+description: "Configuring a Process"
 ---
 
 # Configure a Process

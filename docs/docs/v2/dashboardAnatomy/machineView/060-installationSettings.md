@@ -1,10 +1,10 @@
 ---
-title: Installation Settings
-slug: /v2/getting-started/view-installations/installation-settings
+title: Machine Settings
+slug: /v2/getting-started/machine-view/machine-settings
 description: "Installation settings configureation."
 ---
 
-# Installation settings
+# Machine Settings
 
 Installation settings includes the controls for updating details about your installation.
 
