@@ -1,6 +1,6 @@
 ---
 title: Dashboard View
-slug: /v2/getting-started/dashboard-view
+slug: /v2/dashboard-anatomy/dashboard-view
 description: "An overview of the features on the Dashboard"
 ---
 

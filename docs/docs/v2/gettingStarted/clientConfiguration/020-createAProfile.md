@@ -1,10 +1,34 @@
 ---
 title: Create a Profile
 slug: /v2/getting-started/client-configuration/create-profile
-description: "A step-by-step guide through creating your first installation"
+description: "Creating unique Profiles"
 
 ---
 
 # Create a Profile
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+sudoSignals uses `Profiles` to create groups of different programs, and allows users to have multiple sets of processes they want sudoSignals to control.
+
+:::info Terminology
+
+`Profiles` are lists of processes.
+
+:::
+
+## Profile Setup
+
+On Configuration tab, the left column shows all Profiles available on your machine. On install, sudoSignals comes with a `Default` profile that you can use for your projects. You can rename that profile or delete it. 
+
+![Client Profile 001](/img/client-configuration/v2-client-profile-001.png)
+
+Additionally, you can create a new profile using the `+ Create New Profile` button.
+
+![Client Profile 002](/img/client-configuration/v2-client-profile-002.png)
+
+We recommend that you name your profile something descriptive.
+
+![Client Profile 003](/img/client-configuration/v2-client-profile-003.png)
+
+Once your profile is created, it should appear in the Profiles list.
+
+![Client Profile 004](/img/client-configuration/v2-client-profile-004.png)

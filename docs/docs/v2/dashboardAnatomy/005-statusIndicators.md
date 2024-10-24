@@ -1,19 +1,10 @@
 ---
-title: Client Configuration
-sidebar_position: 30
-slug: /v2/getting-started/client-configuration
+title: Status Indicators
+slug: /v2/dashboard-anatomy/status-indicators
 description: "A step-by-step guide through creating your first installation"
 
 ---
-import DocCardList from '@theme/DocCardList';
 
-# Client Configuration
+# Status Indicators
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-![Client 001](/img/client-configuration/v2-client-config-001.png)
-
----
-<DocCardList />
-
-<!-- links -->

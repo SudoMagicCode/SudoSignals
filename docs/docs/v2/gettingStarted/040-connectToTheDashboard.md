@@ -6,4 +6,32 @@ description: "A step-by-step guide through installing sudoSignals"
 
 # Connect to the Dashboard
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In order to connect your machine to the sudoSignals Dashboard, you must first open the client for a verification code. From the hamburger menu on the, click the `Verification Code` button. 
+
+![Client 003](/img/client-configuration/v2-client-config-003.png)
+
+## Verification Code
+
+A dialog will appear with the verification code for your machine.
+
+![Client 004](/img/client-configuration/v2-client-config-004.png)
+
+:::info Code Regeneraiton
+
+The code will regenerate when....
+
+:::
+
+## Add Machine
+
+Back on the web dashboard, click the `+` sign to add a machine.
+
+![Dashboard Connection 001](/img/connect-to-dashboard/v2-dashboard-connection-001.png)
+
+Enter the `Verification Code` and a descriptive name for your machine.
+
+![Dashboard Connection 002](/img/connect-to-dashboard/v2-dashboard-connection-002.png)
+
+Once connected, you should see the machine appear in the Machines list.
+
+![Dashboard Connection 003](/img/connect-to-dashboard/v2-dashboard-connection-003.png)
