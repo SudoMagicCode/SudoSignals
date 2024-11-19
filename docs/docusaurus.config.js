@@ -39,6 +39,7 @@ const config = {
         indexBlog: false,
       },
     ],
+    //['plugin-image-zoom'],
   ],
 
   presets: [

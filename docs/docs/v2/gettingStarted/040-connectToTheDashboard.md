@@ -16,9 +16,9 @@ A dialog will appear with the verification code for your machine.
 
 ![Client 004](/img/client-configuration/v2-client-config-004.png)
 
-:::info Code Regeneraiton
+:::info Note
 
-The code will regenerate when....
+If you delete your machine from the dashboard, a new verification code will be generated.
 
 :::
 

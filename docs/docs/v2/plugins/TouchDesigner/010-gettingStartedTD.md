@@ -1,14 +1,14 @@
 ---
-title: Remote Control
-slug: /v2/plugins/TouchDesigner/remote-control
+title: Getting Started
+slug: /v2/plugins/TouchDesigner/getting-started
 description: "Setting up remote operation of your TouchDesigner network with the sudoSignals plugin"
 ---
 
-# Remote Control | SudoMagic Plugin
+# Getting Started
 
 Remotely controlling your TouchDesigner installation with the SudoMagic plugin is easy. There are a few key steps that will make sure you're set up for a successful integration:
 1. Ensure you've downloaded and installed the [sudoSignals Client]
-2. Configure your installation to start your project - [see the how to guide](/v2/getting-started/configure-an-installation/configure-a-process/)
+2. Configure the client to start a Process ([how to guide here](../../configure-a-process/))
 3. Download the [TouchDesigner sudoSignals Plugin]
 
 ## Download the Plugin

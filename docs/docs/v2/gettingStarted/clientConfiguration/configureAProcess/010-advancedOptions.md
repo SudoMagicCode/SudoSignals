@@ -10,21 +10,42 @@ Some installations require extra care during start-up and sudoSignals has some a
 
 ![Client Profile Process 003](/img/client-configuration/v2-client-profile-process-003.png)
 
-## Preview Command Line (optional)
+:::info Optional Configuration
+
+Advanced process options are optional and not required for sudoSignals to monitor and control your processes.
+
+:::
+
+## Working Directory File 
+
+:::danger COPY NEEDED
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+:::
+
+## Command Line Preview 
 
 The Preview Command Line field displays the equivalent command string that will be used to start your process. If your familiar with starting applications from the Windows terminal reviewing this command may help ensure that your application starts up correctly.
 
 ![Client Profile Process 003A](/img/client-configuration/v2-client-profile-process-003A.png)
 
-## Working Directory File (optional)
+### Command Line Arguments
 
-*Some important text here....*
+:::danger COPY NEEDED
 
-## Environment Variables (optional)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+:::
+
+![Client Profile Process 003B](/img/client-configuration/v2-client-profile-process-003B.png)
+
+
+## Environment Variables 
 
 Many applications or environments can access [Environment Variables] that are set during application launch. You can add as many Environment Variables as is appropriate for your application. Use the `Add Environment Variables` button to enter the key and value pair you'd like to have set when your process starts.
 
-![Client Profile Process 003B](/img/client-configuration/v2-client-profile-process-003B.png)
+![Client Profile Process 003C](/img/client-configuration/v2-client-profile-process-003C.png)
 
 
 <!-- links -->
