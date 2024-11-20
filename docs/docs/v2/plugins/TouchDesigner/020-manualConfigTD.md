@@ -12,6 +12,12 @@ In some instances you may want to manually configure your the sudoSignals TouchD
 
 Configuring the sudoSignals client is an important first step in the manual configuration process. On the configuration page take note of your `Process ID` this will be an essential identifier when setting-up the TouchDesigner Plugin to work with Signals.
 
+:::danger Question
+
+IS THIS STILL A THING?
+
+:::
+
 ![Create Account 002](/img/td-manual-config/td-manual-config-01.png)
 
 :::info
@@ -23,6 +29,12 @@ For manual plugin configurations, the `Auto Start` parameter should be toggled o
 ## Configuring the Plugin in TouchDesigner
 
 Drag and drop the `sudoSignals` TOX into your network.
+
+:::danger UPDATE
+
+NEW SCREENSHOT
+
+:::
 
 ![Create Account 002](/img/td-manual-config/td-manual-config-02.png)
 

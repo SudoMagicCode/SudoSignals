@@ -12,7 +12,7 @@ At the top right of the installation view, you can find the `gear icon`.
 
 Clicking on the icon opens the `Installation Settings` dialog.
 
-![Machine View 02D](/img/view-machine/v2-machine-view-002D.png)
+![Machine View 02D](/img/view-machine/v2-machine-view-002E.png)
 
 On this dialog, there's the ability to edit the:
 

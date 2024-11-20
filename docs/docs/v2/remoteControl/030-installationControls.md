@@ -7,8 +7,6 @@ description: "Lorem ipsum"
 
 # Installation Controls
 
-:::danger COPY NEEDED
+Installation controls include [Promoted Controls](./promoted-controls) from machines. These controls are seperated by machines; expand and collapse to sections to see each corresponding machine's controls. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-:::
+![Installation Controls 001](/img/controls/v2-installation-controls-001.png)

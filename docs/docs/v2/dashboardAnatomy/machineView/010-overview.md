@@ -58,14 +58,14 @@ This dialog includes the following information about the process:
 
 ## Controls
 
-Controls can be accessed by using one of the [SudoMagic developed plugins](../../plugins), or by building your own controls by following the sudoSignals [client API](../../api). Depending on the environment, the [SudoMagic](https://www.sudomagic.com/) plugins are intended to be drag and drop solutions for fast integration with the sudoSignals dashboard. 
-
-The TouchDesigner plugin, for example, lets you quickly mirror your controls from your TouchDesigner project in a web friendly format. Control schemas are pre-defined, and allow for your development team to focus on building compelling experiences rather than creating overly complex dashboard controls.
+Controls for a given process are in the central section of this view. Click on a process in the Processes tab to view controls for that specific process. To edit which controls are promoted to the Installation View see
 
 ![Machine View 02C](/img/view-machine/v2-machine-view-002C.png)
 
 ## Graphs and Reports
 
 On the right are graphed reports from your machine. Key performance indicators (KPIs) are available at both the Machine and Process level. By default, the KPIs for your machine will be displayed. These metrics are polled directly from the operating system. These graphs give you a quick view of your systems performance over time - allowing you to monitor your machine's performance remotely.
+
+![Machine View 02D](/img/view-machine/v2-machine-view-002D.png)
 
 On the top of the graphs, you can toggle either Machine or Process graphs. Each process can also send metrics back to Signals to be displayed in this graph view. The data used for graphs is available for download from the Reports tab.
