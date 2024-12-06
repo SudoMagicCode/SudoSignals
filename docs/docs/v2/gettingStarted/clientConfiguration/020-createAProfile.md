@@ -1,7 +1,7 @@
 ---
 title: Create a Profile
 slug: /v2/getting-started/client-configuration/create-profile
-description: "Creating unique Profiles"
+description: "How to create a Profile"
 
 ---
 
@@ -32,3 +32,9 @@ We recommend that you name your profile something descriptive.
 Once your profile is created, it should appear in the Profiles list.
 
 ![Client Profile 004](/img/client-configuration/v2-client-profile-004.png)
+
+## Set Current Profile
+
+To set this new profile as your active profile, navigate to the Overview tab and select the profile from the dropdown list and hit `Apply`.
+
+![Client Profile 004A](/img/client-configuration/v2-client-profile-004A.png)

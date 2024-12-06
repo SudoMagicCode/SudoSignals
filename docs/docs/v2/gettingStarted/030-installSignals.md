@@ -1,7 +1,7 @@
 ---
 title: Install Signals
 slug: /v2/getting-started/installing-sudoSignals
-description: "A step-by-step guide through installing sudoSignals"
+description: "A step-by-step guide for installing sudoSignals"
 ---
 
 # Installing sudoSignals

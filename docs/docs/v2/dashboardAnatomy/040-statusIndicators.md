@@ -1,7 +1,7 @@
 ---
 title: Status Indicators
 slug: /v2/dashboard-anatomy/status-indicators
-description: "A step-by-step guide through creating your first installation"
+description: "Summary of sudoSignals status indicators"
 
 ---
 

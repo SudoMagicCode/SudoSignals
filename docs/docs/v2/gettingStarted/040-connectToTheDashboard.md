@@ -1,7 +1,7 @@
 ---
 title: Connect to the Dashboard
 slug: /v2/getting-started/connect-to-dashboard
-description: "A step-by-step guide through installing sudoSignals"
+description: "How to to connect the client to the dashboard"
 ---
 
 # Connect to the Dashboard
