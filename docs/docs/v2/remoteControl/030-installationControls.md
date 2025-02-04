@@ -1,7 +1,7 @@
 ---
 title: Installation Controls
 slug: /v2/remote-control/installation-controls
-description: "Lorem ipsum"
+description: "More about using installation controls"
 
 ---
 

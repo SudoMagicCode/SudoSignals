@@ -1,7 +1,7 @@
 ---
 title: Promoted Controls
 slug: /v2/remote-control/promoted-controls
-description: "Lorem ipsum"
+description: "More about using promoted controls"
 
 ---
 

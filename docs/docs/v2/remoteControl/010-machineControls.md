@@ -1,7 +1,7 @@
 ---
 title: Machine Controls
 slug: /v2/remote-control/machine-controls
-description: "Lorem ipsum"
+description: "More about using machine controls"
 
 ---
 

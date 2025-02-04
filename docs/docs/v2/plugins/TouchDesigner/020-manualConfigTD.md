@@ -4,7 +4,7 @@ slug: /v2/plugins/TouchDesigner/manual-config
 description: "Manually configuring the TouchDesigner plugin"
 ---
 
-# Manual Configuration | 
+# Manual Configuration 
 
 In some instances you may want to manually configure your the sudoSignals TouchDesigner plugin. For example, if sudoSignals is running in an [Engine COMP](https://derivative.ca/UserGuide/Engine_COMP), or as an embedded component inside another system. In those cases you way want sudoSignals to report out machine stats, or provide some handles for control without using sudoSignals to start the process itself.
 
