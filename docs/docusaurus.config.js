@@ -4,6 +4,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
+
 const config = {
   title: 'sudoSignals Docs',
   tagline: 'The dashboard for all your installations.',
@@ -20,7 +21,7 @@ const config = {
   organizationName: 'SudoMagic', // Usually your GitHub org/user name.
   projectName: 'sudoSignals', // Usually your repo name.
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -29,18 +30,12 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
-
   },
+
   plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        // options
-        indexBlog: false,
-      },
-    ],
-    //['plugin-image-zoom'],
+    require.resolve('docusaurus-lunr-search')
   ],
+
 
   presets: [
     [
@@ -127,4 +122,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+export default config;
