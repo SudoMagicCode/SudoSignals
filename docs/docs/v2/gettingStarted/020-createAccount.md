@@ -12,7 +12,7 @@ To control your installations remotely you'll need to have a sudoSignals account
 
 In your browser head to [dashboard.sudosignals.com](https://dashboard.sudosignals.com/). You should see a page that looks like:
 
-![Create Account 001](/img/gettingStarted/create-account-001.png)
+![Create Account 001](/img/gettingStarted/v2-create-account-001.png)
 
 ## Create Your Account
 
@@ -20,7 +20,7 @@ Click the link to sign up at the bottom of the form.
 
 Next you'll see a page to enter your email address, name, and create a password.
 
-![Create Account 002](/img/gettingStarted/create-account-002.png)
+![Create Account 002](/img/gettingStarted/v2-create-account-002.png)
 
 ## Verify Your Email
 
