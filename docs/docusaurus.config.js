@@ -4,6 +4,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
+
 const config = {
   title: 'sudoSignals Docs',
   tagline: 'The dashboard for all your installations.',
@@ -18,9 +19,9 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'SudoMagic', // Usually your GitHub org/user name.
-  projectName: 'sudoSiganls', // Usually your repo name.
+  projectName: 'sudoSignals', // Usually your repo name.
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -29,17 +30,12 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
-
   },
+
   plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        // options
-        indexBlog: false,
-      },
-    ],
+    require.resolve('docusaurus-lunr-search')
   ],
+
 
   presets: [
     [
@@ -65,6 +61,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '<b>🎉️ sudoSignals v2 is in Beta Early Access <a target="_blank" rel="noopener noreferrer" href="/v2">check out the docs here!</a> 📝</b>',
+        backgroundColor: '#DFF50D',
+        textColor: '#181818',
+        isCloseable: false,
+      },
+
       // Replace with your project's social card
       image: 'img/signals-sharing-card-01.jpg',
       navbar: {
@@ -81,7 +86,8 @@ const config = {
           //   position: 'left',
           //   label: 'Tutorial',
           // },
-          // {to: '/docs/intro', label: 'Docs', position: 'left'},
+          { to: '/v1', label: 'v1', position: 'left' },
+          { to: '/v2', label: 'v2', position: 'left' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -96,17 +102,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Request Features',
+                label: '✨ Request Features',
                 to: 'https://github.com/SudoMagicCode/SudoSignals/discussions',
               },
-            ],
-          },
-          {
-            title: 'Issues',
-            items: [
               {
-                label: 'Report a bug 🐛',
-                href: 'https://forms.clickup.com/f/16ky7-1036/3TNCU1Q2JMMEZ5XS43',
+                label: '🪲 Report a Bug',
+                to: 'https://forms.clickup.com/f/16ky7-1036/3TNCU1Q2JMMEZ5XS43',
               },
             ],
           },
@@ -121,4 +122,4 @@ const config = {
     }),
 };
 
-module.exports = config;
+export default config;
