@@ -4,13 +4,13 @@ slug: /v2/getting-started/create-an-account
 description: "An overview of creating your sudoSignals Account"
 ---
 
-# Create Your Account
+# Create Your Account  
 
 To control your installations remotely you'll need to have a sudoSignals account. The steps below will walk you through creating a Signals account.
 
 ## Open your Browser
 
-In your browser head to [dashboard.sudosignals.com](https://dashboard.sudosignals.com/). You should see a page that looks like:
+In your browser head to [v2-dashboard.sudosignals.com](https://v2-dashboard.sudosignals.com/). You should see a page that looks like:
 
 ![Create Account 001](/img/gettingStarted/v2-create-account-001.png)
 
