@@ -18,7 +18,6 @@ Below is a summary of all statuses available in the sudoSignals client and dashb
 |![Status Process Online](/img/status-indicators/v2-status-online.png)                 |  Process Online |Indicates that the process is online and connected to the sudoSignals client. |
 |![Status Installation Warning](/img/status-indicators/v2-status-installation-warning.png) | Installation Warning | Indicates that some of an installation's machines or it's processes may be offline.|
 |![Status Machine Warning](/img/status-indicators/v2-status-machine-warning.png) | Machine Warning |For machines,  a `warning` status indicates that some of it's processes may be offline. |
-|![Status Process Warning](/img/status-indicators/v2-status-warning.png) | Process Warning |For machines,  a `warning` status indicates that some of it's processes may be offline. For installations, the aforementioned is true and/or some machines may be offline as well.|
 |![Status Installation Offline](/img/status-indicators/v2-status-installation-offline.png) | Installation Offline |Indicates that an installation is disconnected. For installations, the `offline` status means that all sub-processes are offline.|
 |![Status Machine Offline](/img/status-indicators/v2-status-machine-offline.png) | Machine Offline |Indicates that the machine may be disconnected. |
 |![Status Process Offline](/img/status-indicators/v2-status-offline.png) | Process Offline |Indicates that the process may be disconnected. |
