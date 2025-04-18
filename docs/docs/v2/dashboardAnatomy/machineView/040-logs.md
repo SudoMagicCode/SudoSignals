@@ -44,12 +44,6 @@ The `Duration` dropdown allows you to select a window of time to view reports:
 
 ![Machine View 05B](/img/view-machine/v2-machine-view-005B.png)
 
-The `Download Logs` button opens a dialog that allows you to download reports for:
-
-:::danger COPY NEEDED
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-:::
+The `Download Logs` button opens a dialog that allows you to download reports for the machine:
 
 ![Machine View 05C](/img/view-machine/v2-machine-view-005C.png)
