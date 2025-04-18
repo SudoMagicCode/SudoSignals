@@ -1,7 +1,7 @@
 ---
 title: Reports
 slug: /v2/getting-started/machine-view/reports
-description: "An overview of the Logs on the Dashboard"
+description: "An overview of Reports on the Dashboard"
 ---
 
 # Reports
@@ -33,19 +33,13 @@ The `Duration` dropdown allows you to select a window of time to view reports:
 
 The `Download Reports` button opens a dialog that allows you to download reports for:
 
-:::danger COPY NEEDED
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-:::
-
 ![Machine View 04B](/img/view-machine/v2-machine-view-004B.png)
 
 ## Process Reports
 
 Process reports has everything from machine reports, except it is focused on processes not machines. additionally, this section a dropdown button for `Process Selection.`
 
-![Installation View 05B](/img/view-installation/v2-installation-view-005B.png)
+![Machine View 04C](/img/view-machine/v2-machine-view-004C.png)
 
 ## Downloads
 

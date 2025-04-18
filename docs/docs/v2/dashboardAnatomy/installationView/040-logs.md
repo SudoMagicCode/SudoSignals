@@ -43,12 +43,6 @@ The `Duration` dropdown allows you to select a window of time to view reports:
 
 ![Installation View 06B](/img/view-installation/v2-installation-view-006B.png)
 
-The `Download Logs` button opens a dialog that allows you to download reports for:
-
-:::danger COPY NEEDED
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-:::
+The `Download Logs` button opens a dialog that allows you to download logs:
 
 ![Installation View 06C](/img/view-installation/v2-installation-view-006C.png)

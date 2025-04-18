@@ -144,5 +144,5 @@ Log messages from your process can be found on the logs tab in the dashboard.
 ![TD Plugin 010](/img/td-remote-setup/v2-remote-setup-010.png)
 
 <!-- links -->
-[sudoSignals Client]: https://sudosignals-downloads.s3.amazonaws.com/production/sudoSignals_Installer.exe
+[sudoSignals Client]: v2-dashboard.sudosignals.com/installer/sudoSignals_Installer.exe
 [TouchDesigner sudoSignals Plugin]: https://github.com/SudoMagicCode/sudoSignals_tdClient_releases//releases/latest/download/SudoSignals.tox

@@ -34,11 +34,7 @@ When sudoSignals is set to Auto Restart your process, it will restart your appli
 
 ## Alert Settings
 
-:::danger COPY NEEDED
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-:::
+In the Alert settings, there is the ability to mute notifications for a fixed duration of time.
 
 ![Installation View 07B](/img/view-installation/v2-installation-view-007B.png)
 
