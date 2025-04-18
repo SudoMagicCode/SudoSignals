@@ -10,7 +10,7 @@ sudoSignals runs as a local process on your Windows computer. In order for Signa
 
 ## Download sudoSignals
 
-Here is the [latest sudoSignals installer](https://sudosignals-downloads.s3.amazonaws.com/production/sudoSignals_Installer.exe).
+Here is the [latest sudoSignals installer](http://v2-dashboard.sudosignals.com/installer/sudoSignals_Installer.exe).
 
 :::caution Versioning
 

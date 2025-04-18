@@ -28,12 +28,10 @@ After clicking *Sign up* you'll be prompted to verify your email.
 
 Check your inbox for an email from sudoSignals to verify your email address.
 
-![Create Account 003](/img/gettingStarted/create-account-003.png)
+![Create Account 003](/img/gettingStarted/v2-create-account-003.png)
 
 
-Finally, click the link to confirm your account.
-
-![Create Account 004](/img/gettingStarted/create-account-004.png)
+Finally, click the link to confirm your account and you should be good to go!
 
 
 ## Login to the Dashboard
