@@ -12,5 +12,3 @@ Machine controls can be accessed by using one of the [SudoMagic developed plugin
 ![Controls 001](/img/controls/v2-machine-controls-001.png)
 
 The TouchDesigner plugin, for example, lets you quickly mirror your controls from your TouchDesigner project in a web friendly format. Control schemas are pre-defined, and allow for your development team to focus on building compelling experiences rather than creating overly complex dashboard controls.
-
-![Controls 002](/img/controls/v2-machine-controls-002.png)

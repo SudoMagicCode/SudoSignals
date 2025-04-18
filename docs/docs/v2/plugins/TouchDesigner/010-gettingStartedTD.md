@@ -19,35 +19,11 @@ The Signals plugin can be downloaded from the [GitHub page](https://github.com/S
 
 Configure sudoSignals to open your project file. If you don't have a project handy, you can set sudoSignals open blank TouchDesigner project. If you need a quick reminder about how to configure sudoSignals to open a process, review the [Configure a Process](/v2/getting-started/client-configuration/configure-a-process) page.
 
-## Launch your TouchDesigner Process with sudoSignals
-
-:::danger Question
-
-IS THIS STILL A THING?
-
-:::
-
-Make sure Signals has launched your process. On the dashboard, you should see that there is now a process with the message:
-
-```
-This process has not connected yet and has limited information available 
-```
-
-That tells us that sudoSignals has started our process, but that our process is not yet directly communicating back to the dashboard.
-
-![TD Plugin 002](/img/td-remote-setup/remote-setup-002.png)
-
 ## Add the sudoSignals TOX
-
-:::danger UPDATE
-
-NEED NEW SCREENSHOT
-
-:::
 
 Next, drop the sudoSignals TOX you downloaded into your project.
 
-![TD Plugin 003](/img/td-remote-setup/remote-setup-003.png)
+![TD Plugin 003](/img/td-remote-setup/v2-remote-setup-003.png)
 
 After dropping the plugin into TouchDesigner you should see some additional information on your dashboard. Your process button should change from red to green, and we should now see controls that are available from our TouchDesigner process.
 
@@ -80,13 +56,7 @@ To set your own controls, simply drag and drop an operator with custom parameter
 
 :::
 
-:::danger UPDATE
-
-NEED NEW SCREENSHOT
-
-:::
-
-![TD Plugin 006](/img/td-remote-setup/remote-setup-006.png)
+![TD Plugin 006](/img/td-remote-setup/v2-remote-setup-006.png)
 
 You should see that these same parameters and page names are reflected on the Dashboard:
 
@@ -115,13 +85,7 @@ Currently only numerical values are supported by the graphing tool kit in use. T
 
 :::
 
-:::danger UPDATE
-
-NEED NEW SCREENSHOT
-
-:::
-
-![TD Plugin 008](/img/td-remote-setup/remote-setup-008.png)
+![TD Plugin 008](/img/td-remote-setup/v2-remote-setup-008.png)
 
 KPIs are sent to the Signals service at a regular interval — these are then forwarded to the cloud. These reports can be seen in the graphs section of the Installation view by selecting the `Process` option from the drop down menu.
 
@@ -131,13 +95,7 @@ In addition to reports, the TouchDesigner sudoSignals plugin has an example conf
 
 A default operator with custom reports is provided to help you get started.
 
-:::danger UPDATE
-
-NEED NEW SCREENSHOT
-
-:::
-
-![TD Plugin 009](/img/td-remote-setup/remote-setup-009.png)
+![TD Plugin 009](/img/td-remote-setup/v2-remote-setup-009.png)
 
 Log messages from your process can be found on the logs tab in the dashboard.
 

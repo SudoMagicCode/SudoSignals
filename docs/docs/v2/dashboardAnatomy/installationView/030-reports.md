@@ -1,7 +1,7 @@
 ---
 title: Reports
 slug: /v2/getting-started/view-installations/reports
-description: "An overview of the Logs on the Dashboard"
+description: "An overview of the Reports on the Dashboard"
 ---
 
 # Reports
