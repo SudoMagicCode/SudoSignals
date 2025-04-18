@@ -16,13 +16,7 @@ Advanced process options are optional and not required for sudoSignals to monito
 
 :::
 
-## Working Directory File 
-
-:::danger COPY NEEDED
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-:::
+## Working Directory File
 
 ## Command Line Preview 
 
@@ -31,12 +25,6 @@ The Preview Command Line field displays the equivalent command string that will 
 ![Client Profile Process 003A](/img/client-configuration/v2-client-profile-process-003A.png)
 
 ### Command Line Arguments
-
-:::danger COPY NEEDED
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-:::
 
 ![Client Profile Process 003B](/img/client-configuration/v2-client-profile-process-003B.png)
 

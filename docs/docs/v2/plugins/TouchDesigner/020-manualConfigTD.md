@@ -8,17 +8,11 @@ description: "Manually configuring the TouchDesigner plugin"
 
 In some instances you may want to manually configure your the sudoSignals TouchDesigner plugin. For example, if sudoSignals is running in an [Engine COMP](https://derivative.ca/UserGuide/Engine_COMP), or as an embedded component inside another system. In those cases you way want sudoSignals to report out machine stats, or provide some handles for control without using sudoSignals to start the process itself.
 
-## Client Configuration
+## Process Configuration
 
-Configuring the sudoSignals client is an important first step in the manual configuration process. On the configuration page take note of your `Process ID` this will be an essential identifier when setting-up the TouchDesigner Plugin to work with Signals.
+Configuring the sudoSignals client is an important first step in the manual configuration process. On the Configure Process page take note of your `Process ID` this will be an essential identifier when setting-up the TouchDesigner Plugin to work with Signals.
 
-:::danger Question
-
-IS THIS STILL A THING?
-
-:::
-
-![Create Account 002](/img/td-manual-config/td-manual-config-01.png)
+![Create Account 002](/img/td-manual-config/v2-td-manual-config-01.png)
 
 :::info
 
@@ -30,19 +24,13 @@ For manual plugin configurations, the `Auto Start` parameter should be toggled o
 
 Drag and drop the `sudoSignals` TOX into your network.
 
-:::danger UPDATE
-
-NEW SCREENSHOT
-
-:::
-
-![Create Account 002](/img/td-manual-config/td-manual-config-02.png)
+![Create Account 002](/img/td-manual-config/v2-td-manual-config-02.png)
 
 On the `Advanced Settings` page toggle on the `Manual Configuration` parameter:
 
-![Create Account 002](/img/td-manual-config/td-manual-config-03.png)
+![Create Account 002](/img/td-manual-config/v2-td-manual-config-03.png)
 
-With `Manual Configuration` toggled on, head back to the `Settings` page. On the settings page enter the `Process ID` from the `Client Configuration` page.
+With `Manual Configuration` toggled on, head back to the `Settings` page. On the settings page enter the `Process ID` from the `Configure Process` page.
 
 Next head back to the `Advanced Settings` page and click on `Reset Connection` to restart the connection between TouchDesigner and sudoSignals.
 
