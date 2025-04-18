@@ -5,6 +5,13 @@ description: "To unlock more advanced features of sudoSignals in a NodeJS app we
 ---
 
 # Logging, Reporting, and Controls
+
+:::caution IN PROGRESS
+
+This plugin is still in development during Beta Early Access.
+
+:::
+
 To unlock more advanced features of sudoSignals in a NodeJS app we have to add a few more elements.  
 
 ## 1. Creating Logs
