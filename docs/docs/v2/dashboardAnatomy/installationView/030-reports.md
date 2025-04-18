@@ -33,17 +33,11 @@ The `Duration` dropdown allows you to select a window of time to view reports:
 
 The `Download Reports` button opens a dialog that allows you to download reports for:
 
-:::danger COPY NEEDED
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-
-:::
-
 ![Installation View 05C](/img/view-installation/v2-installation-view-005C.png)
 
-## Process Reports
+Depending on the length of reports, it may take a few minutes to receive the reports via email. 
 
-Process reports has everything from machine reports, except it is focused on processes not machines. additionally, this section a dropdown button for `Process Selection.`
+![Installation View 05C](/img/view-installation/v2-installation-view-005AC.png)
 
-![Installation View 05B](/img/view-installation/v2-installation-view-005B.png)
+
 
