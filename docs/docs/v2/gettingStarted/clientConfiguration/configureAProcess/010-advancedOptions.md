@@ -16,7 +16,8 @@ Advanced process options are optional and not required for sudoSignals to monito
 
 :::
 
-## Working Directory File
+## Working Directory
+The Working Directory field allows you to specify the execution directory for your selected file and program. This may be especially important if you are launching a project that's written in Python or NodeJS.
 
 ## Command Line Preview 
 

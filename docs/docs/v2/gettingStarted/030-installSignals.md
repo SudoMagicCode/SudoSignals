@@ -41,19 +41,19 @@ First click the link for **More info**, and then click **Run anyway**
 
 You should then see the Welcome window of the Setup Wizard; begin the installation process by clicking `Next.`
 
-![Install Signals 003](/img/windows-installer/install-signals-003.png)
+![Install Signals 003](/img/windows-installer/v2-install-signals-003.png)
 
 ### Accept the EULA
 
 Signals has an end user licensing agreement, mark that you accept the agreement and then click `Next.`
 
-![Install Signals 004](/img/windows-installer/install-signals-004.png)
+![Install Signals 004](/img/windows-installer/v2-install-signals-004.png)
 
 ### Select Installation Location
 
 By default sudoSignals is installed in `Program Files(x86)\SudoSignals`
 
-![Install Signals 005](/img/windows-installer/install-signals-005.png)
+![Install Signals 005](/img/windows-installer/v2-install-signals-005.png)
 
 ### Additional Settings
 
@@ -64,20 +64,20 @@ There are some additional settings you can adjust when installing sudoSignals.
 - [ ] Remove beta config files - if you were a beta tester it is important to check this box  
 - [ ] Remove old configuration files - if you're installing a major Signals release this is an important box to check  
 
-![Install Signals 006](/img/windows-installer/install-signals-006.png)
+![Install Signals 006](/img/windows-installer/v2-install-signals-006.png)
 
 
 ### Install
 
 Review the installer's settings and if everything looks correct, you can begin the installation process by clicking `Install`.
 
-![Install Signals 007](/img/windows-installer/install-signals-007.png)
+![Install Signals 007](/img/windows-installer/v2-install-signals-007.png)
 
 ### Finish
 
 You can complete the Setup Wizard by clicking `Finish`. By default sudoSignals is configured to launch when installation is complete.
 
-![Install Signals 008](/img/windows-installer/install-signals-008.png)
+![Install Signals 008](/img/windows-installer/v2-install-signals-008.png)
 
 
 ## Finding Signals
@@ -86,4 +86,4 @@ If you've selected the `Create a desktop shortcut` option during setup, you can 
 
 sudoSignals also includes a system tray icon. When sudoSignals is running you should see a system tray icon.
 
-![Sys tray icon 009](/img/windows-installer/install-signals-009.png)
+![Sys tray icon 009](/img/windows-installer/v2-install-signals-009.png)
