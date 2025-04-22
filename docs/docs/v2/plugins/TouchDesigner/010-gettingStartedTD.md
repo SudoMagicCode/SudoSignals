@@ -103,4 +103,4 @@ Log messages from your process can be found on the logs tab in the dashboard.
 
 <!-- links -->
 [sudoSignals Client]: v2-dashboard.sudosignals.com/installer/sudoSignals_Installer.exe
-[TouchDesigner sudoSignals Plugin]: https://github.com/SudoMagicCode/sudoSignals_tdClient_releases//releases/latest/download/SudoSignals.tox
+[TouchDesigner sudoSignals Plugin]: https://github.com/SudoMagicCode/sudoSignals_td_plugin/releases/latest
