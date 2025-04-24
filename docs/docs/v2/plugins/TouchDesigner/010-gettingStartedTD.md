@@ -13,7 +13,10 @@ Remotely controlling your TouchDesigner installation with the SudoMagic plugin i
 
 ## Download the Plugin
 
-The Signals plugin can be downloaded from the [GitHub page](https://github.com/SudoMagicCode/sudoSignals_tdClient_releases/releases). Optionally, you can download the sudoSignals TOX directly by [clicking here](https://github.com/SudoMagicCode/sudoSignals_tdClient_releases//releases/latest/download/SudoSignals.tox).
+The Signals plugin can be downloaded from the [GitHub latest release](https://github.com/SudoMagicCode/sudoSignals_td_plugin/releases/latest). Optionally, you can download a specific release by looking through all of our plugin releases here [GitHub all releases](https://github.com/SudoMagicCode/sudoSignals_td_plugin/releases/latest). Please make sure to use a release that's at least version v2.0.0 or greater. Download the asset called `package.zip`.
+
+## Extract
+When you extract `package.zip` you'll see a directory called `sudoSignals`, in that director you'll find the `sudoSignals.tox` file that you can add to your project.
 
 ## Configure sudoSignals to launch a Process
 
@@ -34,6 +37,9 @@ After dropping the plugin into TouchDesigner you should see some additional info
 If your project is not yet connected to Signals your controls and communication to the dashboard won't show up until you restart your project.
 
 :::
+
+###  Remove the External file Path
+TouchDesigner has updated it's mechanics for handling external TOX files, if you drag and drop from your computer into your TOE file this will automatically fill in the external tox parameter on your component. If you don't intended on loading the sudoSignals plugin from disk, be sure to clear this parameter in TouchDesigner.
 
 ## Save your Project file
 
@@ -101,6 +107,8 @@ Log messages from your process can be found on the logs tab in the dashboard.
 
 ![TD Plugin 010](/img/td-remote-setup/v2-remote-setup-010.png)
 
+Alternatively, you can use the Plug's API to call for log messages by directly interacting with the TOX. To see more about accessing the Python extension for this component [click here](/v2/plugins/TouchDesigner/plugin-api)
+
 <!-- links -->
-[sudoSignals Client]: v2-dashboard.sudosignals.com/installer/sudoSignals_Installer.exe
+[sudoSignals Client]: https://v2-dashboard.sudosignals.com/installer/sudoSignals_Installer.exe
 [TouchDesigner sudoSignals Plugin]: https://github.com/SudoMagicCode/sudoSignals_td_plugin/releases/latest
