@@ -9,7 +9,7 @@ description: "Summary of sudoSignals status indicators"
 
 Below is a summary of all statuses available in the sudoSignals client and dashboard.
 
-## Installation Indicators
+## Client Indicators
 
 | Indicator                  | Status | Description |
 |:------------------------|:----------------| :---------------|
