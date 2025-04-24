@@ -23,7 +23,7 @@ op.SudoSignals
 While you can generate logs by changing the contents of a log table, you may also find that it's easier to create log events by accessing Python extension for the sudoSignals TOX. The log method can be accessed by using `Send_log()` on the Signals TOX.
 
 ```python
-op.SudoSignals(logLevel:str, message:str)
+op.SudoSignals.Send_log(logLevel:str, message:str)
 ```
 
 Log Level | Descriptor | 
