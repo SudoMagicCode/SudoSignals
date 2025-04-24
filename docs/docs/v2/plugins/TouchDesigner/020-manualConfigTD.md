@@ -22,6 +22,12 @@ For manual plugin configurations, the `Auto Start` parameter should be toggled o
 
 ## Configuring the Plugin in TouchDesigner
 
+:::danger
+
+We have not yet started testing manual configuration for the TouchDesigner plugin for V2 - please know that this will behave inconsistently
+
+:::
+
 Drag and drop the `sudoSignals` TOX into your network.
 
 ![Create Account 002](/img/td-manual-config/v2-td-manual-config-02.png)
