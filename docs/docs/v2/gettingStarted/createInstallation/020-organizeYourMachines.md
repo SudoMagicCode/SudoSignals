@@ -1,7 +1,7 @@
 ---
 title: Organize your Machines
 slug: /v2/getting-started/create-installation/organize-your-machines
-description: "A step-by-step guide through creating your first installation"
+description: "How to organize your machines"
 
 ---
 
