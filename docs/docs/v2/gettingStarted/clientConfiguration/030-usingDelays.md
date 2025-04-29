@@ -1,8 +1,7 @@
 ---
 title: Using Delays
-sidebar_position: 40
 slug: /v2/getting-started/client-configuration/using-delays
-description: "How to create a Profile"
+description: "How to use Delays"
 
 ---
 
