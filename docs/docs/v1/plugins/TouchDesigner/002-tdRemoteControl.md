@@ -13,7 +13,7 @@ Remotely controlling your TouchDesigner installation with the SudoMagic plugin i
 
 ## Download the Plugin
 
-The Signals plugin can be downloaded from the [github page](https://github.com/SudoMagicCode/sudoSignals_td_plugin/releases/tag/v1.0.31).
+The Signals plugin can be downloaded from the [github page](https://github.com/SudoMagicCode/sudoSignals_td_plugin/releases/tag/v1.0.1).
 
 ## Setup sudoSignals to launch your process
 
