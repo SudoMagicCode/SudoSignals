@@ -116,4 +116,4 @@ Log messages from your process can be found on the logs tab in the dashboard.
 
 <!-- links -->
 [sudoSignals Client]: https://sudosignals-downloads.s3.amazonaws.com/production/sudoSignals_Installer.exe
-[TouchDesigner sudoSignals Plugin]: https://github.com/SudoMagicCode/sudoSignals_tdClient_releases//releases/latest/download/SudoSignals.tox
+[TouchDesigner sudoSignals Plugin]: https://github.com/SudoMagicCode/sudoSignals_td_plugin/releases/tag/v1.0.1
