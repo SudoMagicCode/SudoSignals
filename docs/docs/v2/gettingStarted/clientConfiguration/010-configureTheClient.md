@@ -12,4 +12,3 @@ When you first start the client, you will see the status as `initializing.` To l
 Initially, the profile will be set to `Default` — review the next section to learn how to create your own profile.
 
 ![Client 002](/img/client-configuration/v2-client-config-002.png)
-
